@@ -7,7 +7,9 @@ PROJECT        = General
 
 TEMPLATE       = app
 
-CONFIG		   += console virvo glut
+
+CONFIG		+= console virvo glut
+
 CUDA = $$(CUDA_DEFINES)
 contains(CUDA,HAVE_CUDA) {
         DEFINES *= HAVE_CUDA

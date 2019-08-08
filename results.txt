@@ -1,0 +1,2016 @@
+\naneurism, Bins: 2, shallow  
+========================\n
+\nbonsai, Bins: 2, shallow  
+======================\n
+\nxmas, Bins: 2, shallow  
+====================\n
+\nstag, Bins: 2, shallow  
+====================\n
+\ntvcg256, Bins: 2, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 2, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 2, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 2, shallow\n
+\n========================\n
+\naneurism, Bins: 3, shallow  
+========================\n
+\nbonsai, Bins: 3, shallow  
+======================\n
+\nxmas, Bins: 3, shallow  
+====================\n
+\nstag, Bins: 3, shallow  
+====================\n
+\ntvcg256, Bins: 3, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 3, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 3, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 3, shallow\n
+\n========================\n
+\naneurism, Bins: 4, shallow  
+========================\n
+\nbonsai, Bins: 4, shallow  
+======================\n
+\nxmas, Bins: 4, shallow  
+====================\n
+\nstag, Bins: 4, shallow  
+====================\n
+\ntvcg256, Bins: 4, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 4, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 4, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 4, shallow\n
+\n========================\n
+\naneurism, Bins: 5, shallow  
+========================\n
+\nbonsai, Bins: 5, shallow  
+======================\n
+\nxmas, Bins: 5, shallow  
+====================\n
+\nstag, Bins: 5, shallow  
+====================\n
+\ntvcg256, Bins: 5, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 5, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 5, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 5, shallow\n
+\n========================\n
+\naneurism, Bins: 6, shallow  
+========================\n
+\nbonsai, Bins: 6, shallow  
+======================\n
+\nxmas, Bins: 6, shallow  
+====================\n
+\nstag, Bins: 6, shallow  
+====================\n
+\ntvcg256, Bins: 6, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 6, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 6, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 6, shallow\n
+\n========================\n
+\naneurism, Bins: 7, shallow  
+========================\n
+\nbonsai, Bins: 7, shallow  
+======================\n
+\nxmas, Bins: 7, shallow  
+====================\n
+\nstag, Bins: 7, shallow  
+====================\n
+\ntvcg256, Bins: 7, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 7, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 7, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 7, shallow\n
+\n========================\n
+\naneurism, Bins: 8, shallow  
+========================\n
+\nbonsai, Bins: 8, shallow  
+======================\n
+\nxmas, Bins: 8, shallow  
+====================\n
+\nstag, Bins: 8, shallow  
+====================\n
+\ntvcg256, Bins: 8, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 8, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 8, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 8, shallow\n
+\n========================\n
+\naneurism, Bins: 9, shallow  
+========================\n
+\nbonsai, Bins: 9, shallow  
+======================\n
+\nxmas, Bins: 9, shallow  
+====================\n
+\nstag, Bins: 9, shallow  
+====================\n
+\ntvcg256, Bins: 9, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 9, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 9, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 9, shallow\n
+\n========================\n
+\naneurism, Bins: 10, shallow  
+========================\n
+\nbonsai, Bins: 10, shallow  
+======================\n
+\nxmas, Bins: 10, shallow  
+====================\n
+\nstag, Bins: 10, shallow  
+====================\n
+\ntvcg256, Bins: 10, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 10, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 10, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 10, shallow\n
+\n========================\n
+\naneurism, Bins: 11, shallow  
+========================\n
+\nbonsai, Bins: 11, shallow  
+======================\n
+\nxmas, Bins: 11, shallow  
+====================\n
+\nstag, Bins: 11, shallow  
+====================\n
+\ntvcg256, Bins: 11, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 11, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 11, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 11, shallow\n
+\n========================\n
+\naneurism, Bins: 12, shallow  
+========================\n
+\nbonsai, Bins: 12, shallow  
+======================\n
+\nxmas, Bins: 12, shallow  
+====================\n
+\nstag, Bins: 12, shallow  
+====================\n
+\ntvcg256, Bins: 12, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 12, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 12, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 12, shallow\n
+\n========================\n
+\naneurism, Bins: 13, shallow  
+========================\n
+\nbonsai, Bins: 13, shallow  
+======================\n
+\nxmas, Bins: 13, shallow  
+====================\n
+\nstag, Bins: 13, shallow  
+====================\n
+\ntvcg256, Bins: 13, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 13, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 13, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 13, shallow\n
+\n========================\n
+\naneurism, Bins: 14, shallow  
+========================\n
+\nbonsai, Bins: 14, shallow  
+======================\n
+\nxmas, Bins: 14, shallow  
+====================\n
+\nstag, Bins: 14, shallow  
+====================\n
+\ntvcg256, Bins: 14, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 14, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 14, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 14, shallow\n
+\n========================\n
+\naneurism, Bins: 15, shallow  
+========================\n
+\nbonsai, Bins: 15, shallow  
+======================\n
+\nxmas, Bins: 15, shallow  
+====================\n
+\nstag, Bins: 15, shallow  
+====================\n
+\ntvcg256, Bins: 15, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 15, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 15, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 15, shallow\n
+\n========================\n
+\naneurism, Bins: 16, shallow  
+========================\n
+\nbonsai, Bins: 16, shallow  
+======================\n
+\nxmas, Bins: 16, shallow  
+====================\n
+\nstag, Bins: 16, shallow  
+====================\n
+\ntvcg256, Bins: 16, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 16, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 16, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 16, shallow\n
+\n========================\n
+\naneurism, Bins: 17, shallow  
+========================\n
+\nbonsai, Bins: 17, shallow  
+======================\n
+\nxmas, Bins: 17, shallow  
+====================\n
+\nstag, Bins: 17, shallow  
+====================\n
+\ntvcg256, Bins: 17, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 17, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 17, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 17, shallow\n
+\n========================\n
+\naneurism, Bins: 18, shallow  
+========================\n
+\nbonsai, Bins: 18, shallow  
+======================\n
+\nxmas, Bins: 18, shallow  
+====================\n
+\nstag, Bins: 18, shallow  
+====================\n
+\ntvcg256, Bins: 18, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 18, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 18, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 18, shallow\n
+\n========================\n
+\naneurism, Bins: 19, shallow  
+========================\n
+\nbonsai, Bins: 19, shallow  
+======================\n
+\nxmas, Bins: 19, shallow  
+====================\n
+\nstag, Bins: 19, shallow  
+====================\n
+\ntvcg256, Bins: 19, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 19, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 19, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 19, shallow\n
+\n========================\n
+\naneurism, Bins: 20, shallow  
+========================\n
+\nbonsai, Bins: 20, shallow  
+======================\n
+\nxmas, Bins: 20, shallow  
+====================\n
+\nstag, Bins: 20, shallow  
+====================\n
+\ntvcg256, Bins: 20, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 20, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 20, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 20, shallow\n
+\n========================\n
+\naneurism, Bins: 21, shallow  
+========================\n
+\nbonsai, Bins: 21, shallow  
+======================\n
+\nxmas, Bins: 21, shallow  
+====================\n
+\nstag, Bins: 21, shallow  
+====================\n
+\ntvcg256, Bins: 21, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 21, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 21, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 21, shallow\n
+\n========================\n
+\naneurism, Bins: 22, shallow  
+========================\n
+\nbonsai, Bins: 22, shallow  
+======================\n
+\nxmas, Bins: 22, shallow  
+====================\n
+\nstag, Bins: 22, shallow  
+====================\n
+\ntvcg256, Bins: 22, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 22, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 22, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 22, shallow\n
+\n========================\n
+\naneurism, Bins: 23, shallow  
+========================\n
+\nbonsai, Bins: 23, shallow  
+======================\n
+\nxmas, Bins: 23, shallow  
+====================\n
+\nstag, Bins: 23, shallow  
+====================\n
+\ntvcg256, Bins: 23, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 23, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 23, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 23, shallow\n
+\n========================\n
+\naneurism, Bins: 24, shallow  
+========================\n
+\nbonsai, Bins: 24, shallow  
+======================\n
+\nxmas, Bins: 24, shallow  
+====================\n
+\nstag, Bins: 24, shallow  
+====================\n
+\ntvcg256, Bins: 24, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 24, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 24, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 24, shallow\n
+\n========================\n
+\naneurism, Bins: 25, shallow  
+========================\n
+\nbonsai, Bins: 25, shallow  
+======================\n
+\nxmas, Bins: 25, shallow  
+====================\n
+\nstag, Bins: 25, shallow  
+====================\n
+\ntvcg256, Bins: 25, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 25, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 25, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 25, shallow\n
+\n========================\n
+\naneurism, Bins: 26, shallow  
+========================\n
+\nbonsai, Bins: 26, shallow  
+======================\n
+\nxmas, Bins: 26, shallow  
+====================\n
+\nstag, Bins: 26, shallow  
+====================\n
+\ntvcg256, Bins: 26, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 26, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 26, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 26, shallow\n
+\n========================\n
+\naneurism, Bins: 27, shallow  
+========================\n
+\nbonsai, Bins: 27, shallow  
+======================\n
+\nxmas, Bins: 27, shallow  
+====================\n
+\nstag, Bins: 27, shallow  
+====================\n
+\ntvcg256, Bins: 27, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 27, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 27, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 27, shallow\n
+\n========================\n
+\naneurism, Bins: 28, shallow  
+========================\n
+\nbonsai, Bins: 28, shallow  
+======================\n
+\nxmas, Bins: 28, shallow  
+====================\n
+\nstag, Bins: 28, shallow  
+====================\n
+\ntvcg256, Bins: 28, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 28, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 28, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 28, shallow\n
+\n========================\n
+\naneurism, Bins: 29, shallow  
+========================\n
+\nbonsai, Bins: 29, shallow  
+======================\n
+\nxmas, Bins: 29, shallow  
+====================\n
+\nstag, Bins: 29, shallow  
+====================\n
+\ntvcg256, Bins: 29, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 29, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 29, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 29, shallow\n
+\n========================\n
+\naneurism, Bins: 30, shallow  
+========================\n
+\nbonsai, Bins: 30, shallow  
+======================\n
+\nxmas, Bins: 30, shallow  
+====================\n
+\nstag, Bins: 30, shallow  
+====================\n
+\ntvcg256, Bins: 30, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 30, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 30, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 30, shallow\n
+\n========================\n
+\naneurism, Bins: 31, shallow  
+========================\n
+\nbonsai, Bins: 31, shallow  
+======================\n
+\nxmas, Bins: 31, shallow  
+====================\n
+\nstag, Bins: 31, shallow  
+====================\n
+\ntvcg256, Bins: 31, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 31, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 31, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 31, shallow\n
+\n========================\n
+\naneurism, Bins: 32, shallow  
+========================\n
+\nbonsai, Bins: 32, shallow  
+======================\n
+\nxmas, Bins: 32, shallow  
+====================\n
+\nstag, Bins: 32, shallow  
+====================\n
+\ntvcg256, Bins: 32, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 32, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 32, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 32, shallow\n
+\n========================\n
+\naneurism, Bins: 33, shallow  
+========================\n
+\nbonsai, Bins: 33, shallow  
+======================\n
+\nxmas, Bins: 33, shallow  
+====================\n
+\nstag, Bins: 33, shallow  
+====================\n
+\ntvcg256, Bins: 33, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 33, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 33, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 33, shallow\n
+\n========================\n
+\naneurism, Bins: 34, shallow  
+========================\n
+\nbonsai, Bins: 34, shallow  
+======================\n
+\nxmas, Bins: 34, shallow  
+====================\n
+\nstag, Bins: 34, shallow  
+====================\n
+\ntvcg256, Bins: 34, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 34, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 34, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 34, shallow\n
+\n========================\n
+\naneurism, Bins: 35, shallow  
+========================\n
+\nbonsai, Bins: 35, shallow  
+======================\n
+\nxmas, Bins: 35, shallow  
+====================\n
+\nstag, Bins: 35, shallow  
+====================\n
+\ntvcg256, Bins: 35, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 35, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 35, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 35, shallow\n
+\n========================\n
+\naneurism, Bins: 36, shallow  
+========================\n
+\nbonsai, Bins: 36, shallow  
+======================\n
+\nxmas, Bins: 36, shallow  
+====================\n
+\nstag, Bins: 36, shallow  
+====================\n
+\ntvcg256, Bins: 36, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 36, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 36, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 36, shallow\n
+\n========================\n
+\naneurism, Bins: 37, shallow  
+========================\n
+\nbonsai, Bins: 37, shallow  
+======================\n
+\nxmas, Bins: 37, shallow  
+====================\n
+\nstag, Bins: 37, shallow  
+====================\n
+\ntvcg256, Bins: 37, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 37, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 37, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 37, shallow\n
+\n========================\n
+\naneurism, Bins: 38, shallow  
+========================\n
+\nbonsai, Bins: 38, shallow  
+======================\n
+\nxmas, Bins: 38, shallow  
+====================\n
+\nstag, Bins: 38, shallow  
+====================\n
+\ntvcg256, Bins: 38, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 38, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 38, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 38, shallow\n
+\n========================\n
+\naneurism, Bins: 39, shallow  
+========================\n
+\nbonsai, Bins: 39, shallow  
+======================\n
+\nxmas, Bins: 39, shallow  
+====================\n
+\nstag, Bins: 39, shallow  
+====================\n
+\ntvcg256, Bins: 39, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 39, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 39, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 39, shallow\n
+\n========================\n
+\naneurism, Bins: 40, shallow  
+========================\n
+\nbonsai, Bins: 40, shallow  
+======================\n
+\nxmas, Bins: 40, shallow  
+====================\n
+\nstag, Bins: 40, shallow  
+====================\n
+\ntvcg256, Bins: 40, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 40, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 40, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 40, shallow\n
+\n========================\n
+\naneurism, Bins: 41, shallow  
+========================\n
+\nbonsai, Bins: 41, shallow  
+======================\n
+\nxmas, Bins: 41, shallow  
+====================\n
+\nstag, Bins: 41, shallow  
+====================\n
+\ntvcg256, Bins: 41, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 41, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 41, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 41, shallow\n
+\n========================\n
+\naneurism, Bins: 42, shallow  
+========================\n
+\nbonsai, Bins: 42, shallow  
+======================\n
+\nxmas, Bins: 42, shallow  
+====================\n
+\nstag, Bins: 42, shallow  
+====================\n
+\ntvcg256, Bins: 42, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 42, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 42, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 42, shallow\n
+\n========================\n
+\naneurism, Bins: 43, shallow  
+========================\n
+\nbonsai, Bins: 43, shallow  
+======================\n
+\nxmas, Bins: 43, shallow  
+====================\n
+\nstag, Bins: 43, shallow  
+====================\n
+\ntvcg256, Bins: 43, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 43, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 43, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 43, shallow\n
+\n========================\n
+\naneurism, Bins: 44, shallow  
+========================\n
+\nbonsai, Bins: 44, shallow  
+======================\n
+\nxmas, Bins: 44, shallow  
+====================\n
+\nstag, Bins: 44, shallow  
+====================\n
+\ntvcg256, Bins: 44, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 44, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 44, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 44, shallow\n
+\n========================\n
+\naneurism, Bins: 45, shallow  
+========================\n
+\nbonsai, Bins: 45, shallow  
+======================\n
+\nxmas, Bins: 45, shallow  
+====================\n
+\nstag, Bins: 45, shallow  
+====================\n
+\ntvcg256, Bins: 45, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 45, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 45, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 45, shallow\n
+\n========================\n
+\naneurism, Bins: 46, shallow  
+========================\n
+\nbonsai, Bins: 46, shallow  
+======================\n
+\nxmas, Bins: 46, shallow  
+====================\n
+\nstag, Bins: 46, shallow  
+====================\n
+\ntvcg256, Bins: 46, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 46, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 46, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 46, shallow\n
+\n========================\n
+\naneurism, Bins: 47, shallow  
+========================\n
+\nbonsai, Bins: 47, shallow  
+======================\n
+\nxmas, Bins: 47, shallow  
+====================\n
+\nstag, Bins: 47, shallow  
+====================\n
+\ntvcg256, Bins: 47, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 47, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 47, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 47, shallow\n
+\n========================\n
+\naneurism, Bins: 48, shallow  
+========================\n
+\nbonsai, Bins: 48, shallow  
+======================\n
+\nxmas, Bins: 48, shallow  
+====================\n
+\nstag, Bins: 48, shallow  
+====================\n
+\ntvcg256, Bins: 48, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 48, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 48, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 48, shallow\n
+\n========================\n
+\naneurism, Bins: 49, shallow  
+========================\n
+\nbonsai, Bins: 49, shallow  
+======================\n
+\nxmas, Bins: 49, shallow  
+====================\n
+\nstag, Bins: 49, shallow  
+====================\n
+\ntvcg256, Bins: 49, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 49, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 49, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 49, shallow\n
+\n========================\n
+\naneurism, Bins: 50, shallow  
+========================\n
+\nbonsai, Bins: 50, shallow  
+======================\n
+\nxmas, Bins: 50, shallow  
+====================\n
+\nstag, Bins: 50, shallow  
+====================\n
+\ntvcg256, Bins: 50, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 50, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 50, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 50, shallow\n
+\n========================\n
+\naneurism, Bins: 51, shallow  
+========================\n
+\nbonsai, Bins: 51, shallow  
+======================\n
+\nxmas, Bins: 51, shallow  
+====================\n
+\nstag, Bins: 51, shallow  
+====================\n
+\ntvcg256, Bins: 51, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 51, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 51, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 51, shallow\n
+\n========================\n
+\naneurism, Bins: 52, shallow  
+========================\n
+\nbonsai, Bins: 52, shallow  
+======================\n
+\nxmas, Bins: 52, shallow  
+====================\n
+\nstag, Bins: 52, shallow  
+====================\n
+\ntvcg256, Bins: 52, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 52, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 52, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 52, shallow\n
+\n========================\n
+\naneurism, Bins: 53, shallow  
+========================\n
+\nbonsai, Bins: 53, shallow  
+======================\n
+\nxmas, Bins: 53, shallow  
+====================\n
+\nstag, Bins: 53, shallow  
+====================\n
+\ntvcg256, Bins: 53, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 53, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 53, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 53, shallow\n
+\n========================\n
+\naneurism, Bins: 54, shallow  
+========================\n
+\nbonsai, Bins: 54, shallow  
+======================\n
+\nxmas, Bins: 54, shallow  
+====================\n
+\nstag, Bins: 54, shallow  
+====================\n
+\ntvcg256, Bins: 54, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 54, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 54, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 54, shallow\n
+\n========================\n
+\naneurism, Bins: 55, shallow  
+========================\n
+\nbonsai, Bins: 55, shallow  
+======================\n
+\nxmas, Bins: 55, shallow  
+====================\n
+\nstag, Bins: 55, shallow  
+====================\n
+\ntvcg256, Bins: 55, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 55, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 55, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 55, shallow\n
+\n========================\n
+\naneurism, Bins: 56, shallow  
+========================\n
+\nbonsai, Bins: 56, shallow  
+======================\n
+\nxmas, Bins: 56, shallow  
+====================\n
+\nstag, Bins: 56, shallow  
+====================\n
+\ntvcg256, Bins: 56, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 56, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 56, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 56, shallow\n
+\n========================\n
+\naneurism, Bins: 57, shallow  
+========================\n
+\nbonsai, Bins: 57, shallow  
+======================\n
+\nxmas, Bins: 57, shallow  
+====================\n
+\nstag, Bins: 57, shallow  
+====================\n
+\ntvcg256, Bins: 57, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 57, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 57, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 57, shallow\n
+\n========================\n
+\naneurism, Bins: 58, shallow  
+========================\n
+\nbonsai, Bins: 58, shallow  
+======================\n
+\nxmas, Bins: 58, shallow  
+====================\n
+\nstag, Bins: 58, shallow  
+====================\n
+\ntvcg256, Bins: 58, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 58, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 58, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 58, shallow\n
+\n========================\n
+\naneurism, Bins: 59, shallow  
+========================\n
+\nbonsai, Bins: 59, shallow  
+======================\n
+\nxmas, Bins: 59, shallow  
+====================\n
+\nstag, Bins: 59, shallow  
+====================\n
+\ntvcg256, Bins: 59, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 59, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 59, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 59, shallow\n
+\n========================\n
+\naneurism, Bins: 60, shallow  
+========================\n
+\nbonsai, Bins: 60, shallow  
+======================\n
+\nxmas, Bins: 60, shallow  
+====================\n
+\nstag, Bins: 60, shallow  
+====================\n
+\ntvcg256, Bins: 60, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 60, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 60, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 60, shallow\n
+\n========================\n
+\naneurism, Bins: 61, shallow  
+========================\n
+\nbonsai, Bins: 61, shallow  
+======================\n
+\nxmas, Bins: 61, shallow  
+====================\n
+\nstag, Bins: 61, shallow  
+====================\n
+\ntvcg256, Bins: 61, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 61, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 61, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 61, shallow\n
+\n========================\n
+\naneurism, Bins: 62, shallow  
+========================\n
+\nbonsai, Bins: 62, shallow  
+======================\n
+\nxmas, Bins: 62, shallow  
+====================\n
+\nstag, Bins: 62, shallow  
+====================\n
+\ntvcg256, Bins: 62, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 62, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 62, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 62, shallow\n
+\n========================\n
+\naneurism, Bins: 63, shallow  
+========================\n
+\nbonsai, Bins: 63, shallow  
+======================\n
+\nxmas, Bins: 63, shallow  
+====================\n
+\nstag, Bins: 63, shallow  
+====================\n
+\ntvcg256, Bins: 63, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 63, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 63, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 63, shallow\n
+\n========================\n
+\naneurism, Bins: 64, shallow  
+========================\n
+\nbonsai, Bins: 64, shallow  
+======================\n
+\nxmas, Bins: 64, shallow  
+====================\n
+\nstag, Bins: 64, shallow  
+====================\n
+\ntvcg256, Bins: 64, shallow\n
+\n=======================\n
+\ntvcg512, Bins: 64, shallow\n
+\n=======================\n
+\ntvcg1024, Bins: 64, shallow\n
+\n========================\n
+\ntvcg2048, Bins: 64, shallow\n
+\n========================\n
+\naneurism, Bins: 2, deep  
+========================\n
+\nbonsai, Bins: 2, deep  
+======================\n
+\nxmas, Bins: 2, deep  
+====================\n
+\nstag, Bins: 2, deep  
+====================\n
+\ntvcg256, Bins: 2, deep\n
+\n=======================\n
+\ntvcg512, Bins: 2, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 2, deep\n
+\n========================\n
+\ntvcg2048, Bins: 2, deep\n
+\n========================\n
+\naneurism, Bins: 3, deep  
+========================\n
+\nbonsai, Bins: 3, deep  
+======================\n
+\nxmas, Bins: 3, deep  
+====================\n
+\nstag, Bins: 3, deep  
+====================\n
+\ntvcg256, Bins: 3, deep\n
+\n=======================\n
+\ntvcg512, Bins: 3, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 3, deep\n
+\n========================\n
+\ntvcg2048, Bins: 3, deep\n
+\n========================\n
+\naneurism, Bins: 4, deep  
+========================\n
+\nbonsai, Bins: 4, deep  
+======================\n
+\nxmas, Bins: 4, deep  
+====================\n
+\nstag, Bins: 4, deep  
+====================\n
+\ntvcg256, Bins: 4, deep\n
+\n=======================\n
+\ntvcg512, Bins: 4, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 4, deep\n
+\n========================\n
+\ntvcg2048, Bins: 4, deep\n
+\n========================\n
+\naneurism, Bins: 5, deep  
+========================\n
+\nbonsai, Bins: 5, deep  
+======================\n
+\nxmas, Bins: 5, deep  
+====================\n
+\nstag, Bins: 5, deep  
+====================\n
+\ntvcg256, Bins: 5, deep\n
+\n=======================\n
+\ntvcg512, Bins: 5, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 5, deep\n
+\n========================\n
+\ntvcg2048, Bins: 5, deep\n
+\n========================\n
+\naneurism, Bins: 6, deep  
+========================\n
+\nbonsai, Bins: 6, deep  
+======================\n
+\nxmas, Bins: 6, deep  
+====================\n
+\nstag, Bins: 6, deep  
+====================\n
+\ntvcg256, Bins: 6, deep\n
+\n=======================\n
+\ntvcg512, Bins: 6, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 6, deep\n
+\n========================\n
+\ntvcg2048, Bins: 6, deep\n
+\n========================\n
+\naneurism, Bins: 7, deep  
+========================\n
+\nbonsai, Bins: 7, deep  
+======================\n
+\nxmas, Bins: 7, deep  
+====================\n
+\nstag, Bins: 7, deep  
+====================\n
+\ntvcg256, Bins: 7, deep\n
+\n=======================\n
+\ntvcg512, Bins: 7, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 7, deep\n
+\n========================\n
+\ntvcg2048, Bins: 7, deep\n
+\n========================\n
+\naneurism, Bins: 8, deep  
+========================\n
+\nbonsai, Bins: 8, deep  
+======================\n
+\nxmas, Bins: 8, deep  
+====================\n
+\nstag, Bins: 8, deep  
+====================\n
+\ntvcg256, Bins: 8, deep\n
+\n=======================\n
+\ntvcg512, Bins: 8, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 8, deep\n
+\n========================\n
+\ntvcg2048, Bins: 8, deep\n
+\n========================\n
+\naneurism, Bins: 9, deep  
+========================\n
+\nbonsai, Bins: 9, deep  
+======================\n
+\nxmas, Bins: 9, deep  
+====================\n
+\nstag, Bins: 9, deep  
+====================\n
+\ntvcg256, Bins: 9, deep\n
+\n=======================\n
+\ntvcg512, Bins: 9, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 9, deep\n
+\n========================\n
+\ntvcg2048, Bins: 9, deep\n
+\n========================\n
+\naneurism, Bins: 10, deep  
+========================\n
+\nbonsai, Bins: 10, deep  
+======================\n
+\nxmas, Bins: 10, deep  
+====================\n
+\nstag, Bins: 10, deep  
+====================\n
+\ntvcg256, Bins: 10, deep\n
+\n=======================\n
+\ntvcg512, Bins: 10, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 10, deep\n
+\n========================\n
+\ntvcg2048, Bins: 10, deep\n
+\n========================\n
+\naneurism, Bins: 11, deep  
+========================\n
+\nbonsai, Bins: 11, deep  
+======================\n
+\nxmas, Bins: 11, deep  
+====================\n
+\nstag, Bins: 11, deep  
+====================\n
+\ntvcg256, Bins: 11, deep\n
+\n=======================\n
+\ntvcg512, Bins: 11, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 11, deep\n
+\n========================\n
+\ntvcg2048, Bins: 11, deep\n
+\n========================\n
+\naneurism, Bins: 12, deep  
+========================\n
+\nbonsai, Bins: 12, deep  
+======================\n
+\nxmas, Bins: 12, deep  
+====================\n
+\nstag, Bins: 12, deep  
+====================\n
+\ntvcg256, Bins: 12, deep\n
+\n=======================\n
+\ntvcg512, Bins: 12, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 12, deep\n
+\n========================\n
+\ntvcg2048, Bins: 12, deep\n
+\n========================\n
+\naneurism, Bins: 13, deep  
+========================\n
+\nbonsai, Bins: 13, deep  
+======================\n
+\nxmas, Bins: 13, deep  
+====================\n
+\nstag, Bins: 13, deep  
+====================\n
+\ntvcg256, Bins: 13, deep\n
+\n=======================\n
+\ntvcg512, Bins: 13, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 13, deep\n
+\n========================\n
+\ntvcg2048, Bins: 13, deep\n
+\n========================\n
+\naneurism, Bins: 14, deep  
+========================\n
+\nbonsai, Bins: 14, deep  
+======================\n
+\nxmas, Bins: 14, deep  
+====================\n
+\nstag, Bins: 14, deep  
+====================\n
+\ntvcg256, Bins: 14, deep\n
+\n=======================\n
+\ntvcg512, Bins: 14, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 14, deep\n
+\n========================\n
+\ntvcg2048, Bins: 14, deep\n
+\n========================\n
+\naneurism, Bins: 15, deep  
+========================\n
+\nbonsai, Bins: 15, deep  
+======================\n
+\nxmas, Bins: 15, deep  
+====================\n
+\nstag, Bins: 15, deep  
+====================\n
+\ntvcg256, Bins: 15, deep\n
+\n=======================\n
+\ntvcg512, Bins: 15, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 15, deep\n
+\n========================\n
+\ntvcg2048, Bins: 15, deep\n
+\n========================\n
+\naneurism, Bins: 16, deep  
+========================\n
+\nbonsai, Bins: 16, deep  
+======================\n
+\nxmas, Bins: 16, deep  
+====================\n
+\nstag, Bins: 16, deep  
+====================\n
+\ntvcg256, Bins: 16, deep\n
+\n=======================\n
+\ntvcg512, Bins: 16, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 16, deep\n
+\n========================\n
+\ntvcg2048, Bins: 16, deep\n
+\n========================\n
+\naneurism, Bins: 17, deep  
+========================\n
+\nbonsai, Bins: 17, deep  
+======================\n
+\nxmas, Bins: 17, deep  
+====================\n
+\nstag, Bins: 17, deep  
+====================\n
+\ntvcg256, Bins: 17, deep\n
+\n=======================\n
+\ntvcg512, Bins: 17, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 17, deep\n
+\n========================\n
+\ntvcg2048, Bins: 17, deep\n
+\n========================\n
+\naneurism, Bins: 18, deep  
+========================\n
+\nbonsai, Bins: 18, deep  
+======================\n
+\nxmas, Bins: 18, deep  
+====================\n
+\nstag, Bins: 18, deep  
+====================\n
+\ntvcg256, Bins: 18, deep\n
+\n=======================\n
+\ntvcg512, Bins: 18, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 18, deep\n
+\n========================\n
+\ntvcg2048, Bins: 18, deep\n
+\n========================\n
+\naneurism, Bins: 19, deep  
+========================\n
+\nbonsai, Bins: 19, deep  
+======================\n
+\nxmas, Bins: 19, deep  
+====================\n
+\nstag, Bins: 19, deep  
+====================\n
+\ntvcg256, Bins: 19, deep\n
+\n=======================\n
+\ntvcg512, Bins: 19, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 19, deep\n
+\n========================\n
+\ntvcg2048, Bins: 19, deep\n
+\n========================\n
+\naneurism, Bins: 20, deep  
+========================\n
+\nbonsai, Bins: 20, deep  
+======================\n
+\nxmas, Bins: 20, deep  
+====================\n
+\nstag, Bins: 20, deep  
+====================\n
+\ntvcg256, Bins: 20, deep\n
+\n=======================\n
+\ntvcg512, Bins: 20, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 20, deep\n
+\n========================\n
+\ntvcg2048, Bins: 20, deep\n
+\n========================\n
+\naneurism, Bins: 21, deep  
+========================\n
+\nbonsai, Bins: 21, deep  
+======================\n
+\nxmas, Bins: 21, deep  
+====================\n
+\nstag, Bins: 21, deep  
+====================\n
+\ntvcg256, Bins: 21, deep\n
+\n=======================\n
+\ntvcg512, Bins: 21, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 21, deep\n
+\n========================\n
+\ntvcg2048, Bins: 21, deep\n
+\n========================\n
+\naneurism, Bins: 22, deep  
+========================\n
+\nbonsai, Bins: 22, deep  
+======================\n
+\nxmas, Bins: 22, deep  
+====================\n
+\nstag, Bins: 22, deep  
+====================\n
+\ntvcg256, Bins: 22, deep\n
+\n=======================\n
+\ntvcg512, Bins: 22, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 22, deep\n
+\n========================\n
+\ntvcg2048, Bins: 22, deep\n
+\n========================\n
+\naneurism, Bins: 23, deep  
+========================\n
+\nbonsai, Bins: 23, deep  
+======================\n
+\nxmas, Bins: 23, deep  
+====================\n
+\nstag, Bins: 23, deep  
+====================\n
+\ntvcg256, Bins: 23, deep\n
+\n=======================\n
+\ntvcg512, Bins: 23, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 23, deep\n
+\n========================\n
+\ntvcg2048, Bins: 23, deep\n
+\n========================\n
+\naneurism, Bins: 24, deep  
+========================\n
+\nbonsai, Bins: 24, deep  
+======================\n
+\nxmas, Bins: 24, deep  
+====================\n
+\nstag, Bins: 24, deep  
+====================\n
+\ntvcg256, Bins: 24, deep\n
+\n=======================\n
+\ntvcg512, Bins: 24, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 24, deep\n
+\n========================\n
+\ntvcg2048, Bins: 24, deep\n
+\n========================\n
+\naneurism, Bins: 25, deep  
+========================\n
+\nbonsai, Bins: 25, deep  
+======================\n
+\nxmas, Bins: 25, deep  
+====================\n
+\nstag, Bins: 25, deep  
+====================\n
+\ntvcg256, Bins: 25, deep\n
+\n=======================\n
+\ntvcg512, Bins: 25, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 25, deep\n
+\n========================\n
+\ntvcg2048, Bins: 25, deep\n
+\n========================\n
+\naneurism, Bins: 26, deep  
+========================\n
+\nbonsai, Bins: 26, deep  
+======================\n
+\nxmas, Bins: 26, deep  
+====================\n
+\nstag, Bins: 26, deep  
+====================\n
+\ntvcg256, Bins: 26, deep\n
+\n=======================\n
+\ntvcg512, Bins: 26, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 26, deep\n
+\n========================\n
+\ntvcg2048, Bins: 26, deep\n
+\n========================\n
+\naneurism, Bins: 27, deep  
+========================\n
+\nbonsai, Bins: 27, deep  
+======================\n
+\nxmas, Bins: 27, deep  
+====================\n
+\nstag, Bins: 27, deep  
+====================\n
+\ntvcg256, Bins: 27, deep\n
+\n=======================\n
+\ntvcg512, Bins: 27, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 27, deep\n
+\n========================\n
+\ntvcg2048, Bins: 27, deep\n
+\n========================\n
+\naneurism, Bins: 28, deep  
+========================\n
+\nbonsai, Bins: 28, deep  
+======================\n
+\nxmas, Bins: 28, deep  
+====================\n
+\nstag, Bins: 28, deep  
+====================\n
+\ntvcg256, Bins: 28, deep\n
+\n=======================\n
+\ntvcg512, Bins: 28, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 28, deep\n
+\n========================\n
+\ntvcg2048, Bins: 28, deep\n
+\n========================\n
+\naneurism, Bins: 29, deep  
+========================\n
+\nbonsai, Bins: 29, deep  
+======================\n
+\nxmas, Bins: 29, deep  
+====================\n
+\nstag, Bins: 29, deep  
+====================\n
+\ntvcg256, Bins: 29, deep\n
+\n=======================\n
+\ntvcg512, Bins: 29, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 29, deep\n
+\n========================\n
+\ntvcg2048, Bins: 29, deep\n
+\n========================\n
+\naneurism, Bins: 30, deep  
+========================\n
+\nbonsai, Bins: 30, deep  
+======================\n
+\nxmas, Bins: 30, deep  
+====================\n
+\nstag, Bins: 30, deep  
+====================\n
+\ntvcg256, Bins: 30, deep\n
+\n=======================\n
+\ntvcg512, Bins: 30, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 30, deep\n
+\n========================\n
+\ntvcg2048, Bins: 30, deep\n
+\n========================\n
+\naneurism, Bins: 31, deep  
+========================\n
+\nbonsai, Bins: 31, deep  
+======================\n
+\nxmas, Bins: 31, deep  
+====================\n
+\nstag, Bins: 31, deep  
+====================\n
+\ntvcg256, Bins: 31, deep\n
+\n=======================\n
+\ntvcg512, Bins: 31, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 31, deep\n
+\n========================\n
+\ntvcg2048, Bins: 31, deep\n
+\n========================\n
+\naneurism, Bins: 32, deep  
+========================\n
+\nbonsai, Bins: 32, deep  
+======================\n
+\nxmas, Bins: 32, deep  
+====================\n
+\nstag, Bins: 32, deep  
+====================\n
+\ntvcg256, Bins: 32, deep\n
+\n=======================\n
+\ntvcg512, Bins: 32, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 32, deep\n
+\n========================\n
+\ntvcg2048, Bins: 32, deep\n
+\n========================\n
+\naneurism, Bins: 33, deep  
+========================\n
+\nbonsai, Bins: 33, deep  
+======================\n
+\nxmas, Bins: 33, deep  
+====================\n
+\nstag, Bins: 33, deep  
+====================\n
+\ntvcg256, Bins: 33, deep\n
+\n=======================\n
+\ntvcg512, Bins: 33, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 33, deep\n
+\n========================\n
+\ntvcg2048, Bins: 33, deep\n
+\n========================\n
+\naneurism, Bins: 34, deep  
+========================\n
+\nbonsai, Bins: 34, deep  
+======================\n
+\nxmas, Bins: 34, deep  
+====================\n
+\nstag, Bins: 34, deep  
+====================\n
+\ntvcg256, Bins: 34, deep\n
+\n=======================\n
+\ntvcg512, Bins: 34, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 34, deep\n
+\n========================\n
+\ntvcg2048, Bins: 34, deep\n
+\n========================\n
+\naneurism, Bins: 35, deep  
+========================\n
+\nbonsai, Bins: 35, deep  
+======================\n
+\nxmas, Bins: 35, deep  
+====================\n
+\nstag, Bins: 35, deep  
+====================\n
+\ntvcg256, Bins: 35, deep\n
+\n=======================\n
+\ntvcg512, Bins: 35, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 35, deep\n
+\n========================\n
+\ntvcg2048, Bins: 35, deep\n
+\n========================\n
+\naneurism, Bins: 36, deep  
+========================\n
+\nbonsai, Bins: 36, deep  
+======================\n
+\nxmas, Bins: 36, deep  
+====================\n
+\nstag, Bins: 36, deep  
+====================\n
+\ntvcg256, Bins: 36, deep\n
+\n=======================\n
+\ntvcg512, Bins: 36, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 36, deep\n
+\n========================\n
+\ntvcg2048, Bins: 36, deep\n
+\n========================\n
+\naneurism, Bins: 37, deep  
+========================\n
+\nbonsai, Bins: 37, deep  
+======================\n
+\nxmas, Bins: 37, deep  
+====================\n
+\nstag, Bins: 37, deep  
+====================\n
+\ntvcg256, Bins: 37, deep\n
+\n=======================\n
+\ntvcg512, Bins: 37, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 37, deep\n
+\n========================\n
+\ntvcg2048, Bins: 37, deep\n
+\n========================\n
+\naneurism, Bins: 38, deep  
+========================\n
+\nbonsai, Bins: 38, deep  
+======================\n
+\nxmas, Bins: 38, deep  
+====================\n
+\nstag, Bins: 38, deep  
+====================\n
+\ntvcg256, Bins: 38, deep\n
+\n=======================\n
+\ntvcg512, Bins: 38, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 38, deep\n
+\n========================\n
+\ntvcg2048, Bins: 38, deep\n
+\n========================\n
+\naneurism, Bins: 39, deep  
+========================\n
+\nbonsai, Bins: 39, deep  
+======================\n
+\nxmas, Bins: 39, deep  
+====================\n
+\nstag, Bins: 39, deep  
+====================\n
+\ntvcg256, Bins: 39, deep\n
+\n=======================\n
+\ntvcg512, Bins: 39, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 39, deep\n
+\n========================\n
+\ntvcg2048, Bins: 39, deep\n
+\n========================\n
+\naneurism, Bins: 40, deep  
+========================\n
+\nbonsai, Bins: 40, deep  
+======================\n
+\nxmas, Bins: 40, deep  
+====================\n
+\nstag, Bins: 40, deep  
+====================\n
+\ntvcg256, Bins: 40, deep\n
+\n=======================\n
+\ntvcg512, Bins: 40, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 40, deep\n
+\n========================\n
+\ntvcg2048, Bins: 40, deep\n
+\n========================\n
+\naneurism, Bins: 41, deep  
+========================\n
+\nbonsai, Bins: 41, deep  
+======================\n
+\nxmas, Bins: 41, deep  
+====================\n
+\nstag, Bins: 41, deep  
+====================\n
+\ntvcg256, Bins: 41, deep\n
+\n=======================\n
+\ntvcg512, Bins: 41, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 41, deep\n
+\n========================\n
+\ntvcg2048, Bins: 41, deep\n
+\n========================\n
+\naneurism, Bins: 42, deep  
+========================\n
+\nbonsai, Bins: 42, deep  
+======================\n
+\nxmas, Bins: 42, deep  
+====================\n
+\nstag, Bins: 42, deep  
+====================\n
+\ntvcg256, Bins: 42, deep\n
+\n=======================\n
+\ntvcg512, Bins: 42, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 42, deep\n
+\n========================\n
+\ntvcg2048, Bins: 42, deep\n
+\n========================\n
+\naneurism, Bins: 43, deep  
+========================\n
+\nbonsai, Bins: 43, deep  
+======================\n
+\nxmas, Bins: 43, deep  
+====================\n
+\nstag, Bins: 43, deep  
+====================\n
+\ntvcg256, Bins: 43, deep\n
+\n=======================\n
+\ntvcg512, Bins: 43, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 43, deep\n
+\n========================\n
+\ntvcg2048, Bins: 43, deep\n
+\n========================\n
+\naneurism, Bins: 44, deep  
+========================\n
+\nbonsai, Bins: 44, deep  
+======================\n
+\nxmas, Bins: 44, deep  
+====================\n
+\nstag, Bins: 44, deep  
+====================\n
+\ntvcg256, Bins: 44, deep\n
+\n=======================\n
+\ntvcg512, Bins: 44, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 44, deep\n
+\n========================\n
+\ntvcg2048, Bins: 44, deep\n
+\n========================\n
+\naneurism, Bins: 45, deep  
+========================\n
+\nbonsai, Bins: 45, deep  
+======================\n
+\nxmas, Bins: 45, deep  
+====================\n
+\nstag, Bins: 45, deep  
+====================\n
+\ntvcg256, Bins: 45, deep\n
+\n=======================\n
+\ntvcg512, Bins: 45, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 45, deep\n
+\n========================\n
+\ntvcg2048, Bins: 45, deep\n
+\n========================\n
+\naneurism, Bins: 46, deep  
+========================\n
+\nbonsai, Bins: 46, deep  
+======================\n
+\nxmas, Bins: 46, deep  
+====================\n
+\nstag, Bins: 46, deep  
+====================\n
+\ntvcg256, Bins: 46, deep\n
+\n=======================\n
+\ntvcg512, Bins: 46, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 46, deep\n
+\n========================\n
+\ntvcg2048, Bins: 46, deep\n
+\n========================\n
+\naneurism, Bins: 47, deep  
+========================\n
+\nbonsai, Bins: 47, deep  
+======================\n
+\nxmas, Bins: 47, deep  
+====================\n
+\nstag, Bins: 47, deep  
+====================\n
+\ntvcg256, Bins: 47, deep\n
+\n=======================\n
+\ntvcg512, Bins: 47, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 47, deep\n
+\n========================\n
+\ntvcg2048, Bins: 47, deep\n
+\n========================\n
+\naneurism, Bins: 48, deep  
+========================\n
+\nbonsai, Bins: 48, deep  
+======================\n
+\nxmas, Bins: 48, deep  
+====================\n
+\nstag, Bins: 48, deep  
+====================\n
+\ntvcg256, Bins: 48, deep\n
+\n=======================\n
+\ntvcg512, Bins: 48, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 48, deep\n
+\n========================\n
+\ntvcg2048, Bins: 48, deep\n
+\n========================\n
+\naneurism, Bins: 49, deep  
+========================\n
+\nbonsai, Bins: 49, deep  
+======================\n
+\nxmas, Bins: 49, deep  
+====================\n
+\nstag, Bins: 49, deep  
+====================\n
+\ntvcg256, Bins: 49, deep\n
+\n=======================\n
+\ntvcg512, Bins: 49, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 49, deep\n
+\n========================\n
+\ntvcg2048, Bins: 49, deep\n
+\n========================\n
+\naneurism, Bins: 50, deep  
+========================\n
+\nbonsai, Bins: 50, deep  
+======================\n
+\nxmas, Bins: 50, deep  
+====================\n
+\nstag, Bins: 50, deep  
+====================\n
+\ntvcg256, Bins: 50, deep\n
+\n=======================\n
+\ntvcg512, Bins: 50, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 50, deep\n
+\n========================\n
+\ntvcg2048, Bins: 50, deep\n
+\n========================\n
+\naneurism, Bins: 51, deep  
+========================\n
+\nbonsai, Bins: 51, deep  
+======================\n
+\nxmas, Bins: 51, deep  
+====================\n
+\nstag, Bins: 51, deep  
+====================\n
+\ntvcg256, Bins: 51, deep\n
+\n=======================\n
+\ntvcg512, Bins: 51, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 51, deep\n
+\n========================\n
+\ntvcg2048, Bins: 51, deep\n
+\n========================\n
+\naneurism, Bins: 52, deep  
+========================\n
+\nbonsai, Bins: 52, deep  
+======================\n
+\nxmas, Bins: 52, deep  
+====================\n
+\nstag, Bins: 52, deep  
+====================\n
+\ntvcg256, Bins: 52, deep\n
+\n=======================\n
+\ntvcg512, Bins: 52, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 52, deep\n
+\n========================\n
+\ntvcg2048, Bins: 52, deep\n
+\n========================\n
+\naneurism, Bins: 53, deep  
+========================\n
+\nbonsai, Bins: 53, deep  
+======================\n
+\nxmas, Bins: 53, deep  
+====================\n
+\nstag, Bins: 53, deep  
+====================\n
+\ntvcg256, Bins: 53, deep\n
+\n=======================\n
+\ntvcg512, Bins: 53, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 53, deep\n
+\n========================\n
+\ntvcg2048, Bins: 53, deep\n
+\n========================\n
+\naneurism, Bins: 54, deep  
+========================\n
+\nbonsai, Bins: 54, deep  
+======================\n
+\nxmas, Bins: 54, deep  
+====================\n
+\nstag, Bins: 54, deep  
+====================\n
+\ntvcg256, Bins: 54, deep\n
+\n=======================\n
+\ntvcg512, Bins: 54, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 54, deep\n
+\n========================\n
+\ntvcg2048, Bins: 54, deep\n
+\n========================\n
+\naneurism, Bins: 55, deep  
+========================\n
+\nbonsai, Bins: 55, deep  
+======================\n
+\nxmas, Bins: 55, deep  
+====================\n
+\nstag, Bins: 55, deep  
+====================\n
+\ntvcg256, Bins: 55, deep\n
+\n=======================\n
+\ntvcg512, Bins: 55, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 55, deep\n
+\n========================\n
+\ntvcg2048, Bins: 55, deep\n
+\n========================\n
+\naneurism, Bins: 56, deep  
+========================\n
+\nbonsai, Bins: 56, deep  
+======================\n
+\nxmas, Bins: 56, deep  
+====================\n
+\nstag, Bins: 56, deep  
+====================\n
+\ntvcg256, Bins: 56, deep\n
+\n=======================\n
+\ntvcg512, Bins: 56, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 56, deep\n
+\n========================\n
+\ntvcg2048, Bins: 56, deep\n
+\n========================\n
+\naneurism, Bins: 57, deep  
+========================\n
+\nbonsai, Bins: 57, deep  
+======================\n
+\nxmas, Bins: 57, deep  
+====================\n
+\nstag, Bins: 57, deep  
+====================\n
+\ntvcg256, Bins: 57, deep\n
+\n=======================\n
+\ntvcg512, Bins: 57, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 57, deep\n
+\n========================\n
+\ntvcg2048, Bins: 57, deep\n
+\n========================\n
+\naneurism, Bins: 58, deep  
+========================\n
+\nbonsai, Bins: 58, deep  
+======================\n
+\nxmas, Bins: 58, deep  
+====================\n
+\nstag, Bins: 58, deep  
+====================\n
+\ntvcg256, Bins: 58, deep\n
+\n=======================\n
+\ntvcg512, Bins: 58, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 58, deep\n
+\n========================\n
+\ntvcg2048, Bins: 58, deep\n
+\n========================\n
+\naneurism, Bins: 59, deep  
+========================\n
+\nbonsai, Bins: 59, deep  
+======================\n
+\nxmas, Bins: 59, deep  
+====================\n
+\nstag, Bins: 59, deep  
+====================\n
+\ntvcg256, Bins: 59, deep\n
+\n=======================\n
+\ntvcg512, Bins: 59, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 59, deep\n
+\n========================\n
+\ntvcg2048, Bins: 59, deep\n
+\n========================\n
+\naneurism, Bins: 60, deep  
+========================\n
+\nbonsai, Bins: 60, deep  
+======================\n
+\nxmas, Bins: 60, deep  
+====================\n
+\nstag, Bins: 60, deep  
+====================\n
+\ntvcg256, Bins: 60, deep\n
+\n=======================\n
+\ntvcg512, Bins: 60, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 60, deep\n
+\n========================\n
+\ntvcg2048, Bins: 60, deep\n
+\n========================\n
+\naneurism, Bins: 61, deep  
+========================\n
+\nbonsai, Bins: 61, deep  
+======================\n
+\nxmas, Bins: 61, deep  
+====================\n
+\nstag, Bins: 61, deep  
+====================\n
+\ntvcg256, Bins: 61, deep\n
+\n=======================\n
+\ntvcg512, Bins: 61, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 61, deep\n
+\n========================\n
+\ntvcg2048, Bins: 61, deep\n
+\n========================\n
+\naneurism, Bins: 62, deep  
+========================\n
+\nbonsai, Bins: 62, deep  
+======================\n
+\nxmas, Bins: 62, deep  
+====================\n
+\nstag, Bins: 62, deep  
+====================\n
+\ntvcg256, Bins: 62, deep\n
+\n=======================\n
+\ntvcg512, Bins: 62, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 62, deep\n
+\n========================\n
+\ntvcg2048, Bins: 62, deep\n
+\n========================\n
+\naneurism, Bins: 63, deep  
+========================\n
+\nbonsai, Bins: 63, deep  
+======================\n
+\nxmas, Bins: 63, deep  
+====================\n
+\nstag, Bins: 63, deep  
+====================\n
+\ntvcg256, Bins: 63, deep\n
+\n=======================\n
+\ntvcg512, Bins: 63, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 63, deep\n
+\n========================\n
+\ntvcg2048, Bins: 63, deep\n
+\n========================\n
+\naneurism, Bins: 64, deep  
+========================\n
+\nbonsai, Bins: 64, deep  
+======================\n
+\nxmas, Bins: 64, deep  
+====================\n
+\nstag, Bins: 64, deep  
+====================\n
+\ntvcg256, Bins: 64, deep\n
+\n=======================\n
+\ntvcg512, Bins: 64, deep\n
+\n=======================\n
+\ntvcg1024, Bins: 64, deep\n
+\n========================\n
+\ntvcg2048, Bins: 64, deep\n
+\n========================\n

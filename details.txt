@@ -1,0 +1,3024 @@
+\naneurism, Bins: 2, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 2, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 2, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 2, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 2, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 2, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 2, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 2, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 3, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 3, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 3, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 3, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 3, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 3, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 3, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 3, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 4, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 4, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 4, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 4, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 4, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 4, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 4, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 4, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 5, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 5, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 5, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 5, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 5, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 5, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 5, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 5, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 6, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 6, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 6, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 6, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 6, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 6, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 6, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 6, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 7, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 7, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 7, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 7, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 7, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 7, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 7, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 7, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 8, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 8, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 8, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 8, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 8, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 8, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 8, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 8, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 9, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 9, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 9, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 9, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 9, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 9, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 9, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 9, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 10, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 10, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 10, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 10, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 10, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 10, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 10, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 10, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 11, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 11, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 11, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 11, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 11, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 11, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 11, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 11, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 12, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 12, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 12, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 12, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 12, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 12, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 12, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 12, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 13, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 13, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 13, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 13, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 13, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 13, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 13, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 13, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 14, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 14, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 14, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 14, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 14, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 14, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 14, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 14, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 15, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 15, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 15, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 15, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 15, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 15, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 15, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 15, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 16, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 16, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 16, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 16, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 16, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 16, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 16, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 16, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 17, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 17, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 17, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 17, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 17, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 17, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 17, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 17, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 18, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 18, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 18, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 18, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 18, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 18, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 18, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 18, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 19, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 19, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 19, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 19, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 19, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 19, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 19, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 19, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 20, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 20, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 20, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 20, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 20, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 20, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 20, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 20, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 21, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 21, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 21, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 21, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 21, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 21, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 21, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 21, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 22, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 22, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 22, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 22, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 22, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 22, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 22, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 22, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 23, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 23, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 23, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 23, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 23, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 23, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 23, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 23, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 24, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 24, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 24, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 24, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 24, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 24, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 24, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 24, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 25, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 25, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 25, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 25, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 25, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 25, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 25, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 25, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 26, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 26, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 26, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 26, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 26, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 26, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 26, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 26, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 27, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 27, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 27, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 27, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 27, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 27, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 27, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 27, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 28, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 28, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 28, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 28, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 28, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 28, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 28, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 28, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 29, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 29, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 29, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 29, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 29, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 29, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 29, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 29, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 30, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 30, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 30, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 30, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 30, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 30, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 30, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 30, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 31, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 31, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 31, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 31, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 31, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 31, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 31, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 31, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 32, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 32, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 32, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 32, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 32, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 32, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 32, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 32, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 33, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 33, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 33, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 33, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 33, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 33, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 33, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 33, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 34, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 34, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 34, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 34, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 34, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 34, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 34, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 34, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 35, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 35, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 35, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 35, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 35, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 35, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 35, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 35, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 36, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 36, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 36, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 36, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 36, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 36, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 36, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 36, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 37, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 37, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 37, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 37, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 37, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 37, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 37, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 37, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 38, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 38, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 38, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 38, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 38, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 38, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 38, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 38, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 39, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 39, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 39, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 39, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 39, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 39, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 39, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 39, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 40, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 40, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 40, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 40, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 40, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 40, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 40, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 40, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 41, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 41, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 41, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 41, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 41, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 41, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 41, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 41, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 42, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 42, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 42, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 42, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 42, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 42, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 42, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 42, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 43, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 43, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 43, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 43, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 43, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 43, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 43, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 43, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 44, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 44, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 44, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 44, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 44, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 44, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 44, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 44, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 45, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 45, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 45, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 45, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 45, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 45, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 45, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 45, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 46, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 46, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 46, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 46, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 46, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 46, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 46, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 46, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 47, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 47, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 47, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 47, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 47, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 47, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 47, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 47, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 48, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 48, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 48, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 48, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 48, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 48, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 48, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 48, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 49, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 49, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 49, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 49, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 49, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 49, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 49, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 49, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 50, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 50, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 50, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 50, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 50, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 50, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 50, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 50, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 51, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 51, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 51, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 51, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 51, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 51, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 51, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 51, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 52, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 52, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 52, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 52, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 52, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 52, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 52, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 52, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 53, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 53, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 53, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 53, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 53, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 53, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 53, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 53, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 54, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 54, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 54, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 54, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 54, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 54, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 54, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 54, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 55, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 55, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 55, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 55, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 55, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 55, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 55, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 55, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 56, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 56, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 56, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 56, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 56, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 56, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 56, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 56, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 57, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 57, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 57, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 57, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 57, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 57, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 57, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 57, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 58, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 58, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 58, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 58, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 58, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 58, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 58, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 58, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 59, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 59, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 59, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 59, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 59, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 59, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 59, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 59, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 60, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 60, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 60, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 60, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 60, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 60, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 60, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 60, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 61, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 61, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 61, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 61, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 61, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 61, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 61, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 61, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 62, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 62, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 62, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 62, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 62, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 62, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 62, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 62, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 63, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 63, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 63, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 63, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 63, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 63, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 63, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 63, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 64, shallow  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 64, shallow  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 64, shallow  
+====================\n
+vglrun: command not found
+\nstag, Bins: 64, shallow  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 64, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 64, shallow\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 64, shallow\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 64, shallow\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 2, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 2, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 2, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 2, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 2, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 2, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 2, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 2, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 3, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 3, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 3, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 3, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 3, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 3, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 3, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 3, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 4, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 4, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 4, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 4, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 4, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 4, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 4, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 4, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 5, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 5, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 5, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 5, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 5, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 5, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 5, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 5, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 6, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 6, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 6, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 6, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 6, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 6, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 6, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 6, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 7, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 7, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 7, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 7, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 7, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 7, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 7, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 7, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 8, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 8, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 8, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 8, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 8, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 8, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 8, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 8, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 9, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 9, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 9, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 9, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 9, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 9, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 9, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 9, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 10, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 10, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 10, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 10, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 10, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 10, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 10, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 10, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 11, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 11, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 11, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 11, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 11, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 11, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 11, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 11, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 12, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 12, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 12, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 12, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 12, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 12, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 12, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 12, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 13, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 13, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 13, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 13, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 13, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 13, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 13, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 13, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 14, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 14, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 14, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 14, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 14, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 14, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 14, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 14, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 15, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 15, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 15, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 15, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 15, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 15, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 15, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 15, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 16, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 16, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 16, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 16, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 16, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 16, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 16, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 16, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 17, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 17, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 17, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 17, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 17, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 17, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 17, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 17, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 18, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 18, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 18, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 18, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 18, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 18, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 18, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 18, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 19, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 19, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 19, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 19, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 19, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 19, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 19, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 19, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 20, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 20, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 20, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 20, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 20, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 20, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 20, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 20, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 21, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 21, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 21, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 21, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 21, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 21, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 21, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 21, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 22, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 22, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 22, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 22, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 22, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 22, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 22, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 22, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 23, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 23, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 23, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 23, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 23, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 23, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 23, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 23, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 24, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 24, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 24, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 24, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 24, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 24, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 24, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 24, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 25, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 25, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 25, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 25, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 25, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 25, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 25, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 25, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 26, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 26, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 26, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 26, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 26, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 26, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 26, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 26, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 27, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 27, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 27, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 27, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 27, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 27, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 27, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 27, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 28, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 28, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 28, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 28, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 28, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 28, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 28, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 28, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 29, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 29, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 29, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 29, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 29, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 29, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 29, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 29, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 30, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 30, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 30, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 30, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 30, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 30, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 30, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 30, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 31, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 31, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 31, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 31, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 31, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 31, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 31, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 31, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 32, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 32, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 32, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 32, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 32, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 32, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 32, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 32, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 33, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 33, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 33, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 33, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 33, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 33, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 33, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 33, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 34, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 34, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 34, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 34, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 34, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 34, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 34, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 34, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 35, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 35, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 35, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 35, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 35, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 35, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 35, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 35, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 36, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 36, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 36, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 36, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 36, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 36, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 36, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 36, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 37, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 37, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 37, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 37, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 37, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 37, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 37, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 37, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 38, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 38, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 38, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 38, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 38, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 38, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 38, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 38, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 39, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 39, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 39, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 39, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 39, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 39, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 39, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 39, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 40, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 40, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 40, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 40, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 40, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 40, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 40, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 40, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 41, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 41, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 41, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 41, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 41, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 41, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 41, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 41, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 42, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 42, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 42, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 42, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 42, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 42, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 42, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 42, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 43, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 43, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 43, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 43, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 43, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 43, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 43, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 43, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 44, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 44, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 44, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 44, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 44, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 44, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 44, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 44, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 45, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 45, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 45, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 45, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 45, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 45, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 45, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 45, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 46, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 46, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 46, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 46, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 46, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 46, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 46, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 46, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 47, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 47, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 47, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 47, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 47, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 47, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 47, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 47, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 48, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 48, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 48, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 48, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 48, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 48, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 48, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 48, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 49, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 49, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 49, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 49, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 49, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 49, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 49, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 49, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 50, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 50, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 50, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 50, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 50, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 50, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 50, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 50, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 51, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 51, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 51, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 51, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 51, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 51, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 51, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 51, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 52, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 52, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 52, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 52, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 52, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 52, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 52, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 52, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 53, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 53, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 53, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 53, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 53, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 53, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 53, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 53, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 54, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 54, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 54, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 54, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 54, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 54, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 54, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 54, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 55, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 55, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 55, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 55, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 55, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 55, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 55, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 55, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 56, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 56, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 56, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 56, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 56, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 56, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 56, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 56, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 57, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 57, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 57, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 57, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 57, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 57, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 57, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 57, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 58, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 58, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 58, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 58, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 58, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 58, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 58, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 58, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 59, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 59, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 59, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 59, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 59, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 59, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 59, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 59, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 60, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 60, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 60, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 60, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 60, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 60, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 60, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 60, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 61, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 61, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 61, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 61, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 61, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 61, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 61, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 61, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 62, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 62, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 62, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 62, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 62, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 62, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 62, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 62, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 63, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 63, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 63, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 63, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 63, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 63, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 63, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 63, deep\n
+\n========================\n
+vglrun: command not found
+\naneurism, Bins: 64, deep  
+========================\n
+vglrun: command not found
+\nbonsai, Bins: 64, deep  
+======================\n
+vglrun: command not found
+\nxmas, Bins: 64, deep  
+====================\n
+vglrun: command not found
+\nstag, Bins: 64, deep  
+====================\n
+vglrun: command not found
+\ntvcg256, Bins: 64, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg512, Bins: 64, deep\n
+\n=======================\n
+vglrun: command not found
+\ntvcg1024, Bins: 64, deep\n
+\n========================\n
+vglrun: command not found
+\ntvcg2048, Bins: 64, deep\n
+\n========================\n
+vglrun: command not found

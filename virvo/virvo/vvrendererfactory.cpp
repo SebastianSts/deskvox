@@ -26,7 +26,9 @@
 
 #ifdef HAVE_CUDA
 #include "vvsimplecaster.h"
+
 #endif
+#include "vvsparserenderer.h"
 #include "vvdebugmsg.h"
 #include "vvdynlib.h"
 #include "vvvoldesc.h"
@@ -205,6 +207,7 @@ void init()
   rendererAliasMap["18"] = "rayrendsimple";
   rendererAliasMap["20"] = "serbrick";
   rendererAliasMap["21"] = "parbrick";
+  rendererAliasMap["22"] = "rayrendsparse";
   rendererAliasMap["30"] = "ibr";
   rendererAliasMap["31"] = "image";
   // used in COVER and Inventor renderer
@@ -234,6 +237,7 @@ void init()
   rendererTypeMap["rayrendavx"] = vvRenderer::RAYREND;
   rendererTypeMap["rayrendavx2"] = vvRenderer::RAYREND;
   rendererTypeMap["rayrendsimple"] = vvRenderer::RAYRENDSIMPLE;
+  rendererTypeMap["rayrendsparse"] = vvRenderer::RAYRENDSPARSE;
   rendererTypeMap["volpack"] = vvRenderer::VOLPACK;
   rendererTypeMap["image"] = vvRenderer::REMOTE_IMAGE;
   rendererTypeMap["ibr"] = vvRenderer::REMOTE_IBR;
@@ -651,6 +655,8 @@ vvRenderer *create(vvVolDesc *vd, const vvRenderState &rs, const char *t, const 
   case vvRenderer::RAYRENDSIMPLE:
     return new vvSimpleCaster(vd, rs);
 #endif
+  case vvRenderer::RAYRENDSPARSE:
+    return new vvSparseRenderer(vd, rs);
   case vvRenderer::RAYREND:
   {
     // if not specified, try to deduce arch from type string

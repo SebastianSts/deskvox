@@ -1299,7 +1299,7 @@ void vvTexRend::updateLUT(const float dist)
     }
   }
 
-  if (!_postClassification)
+ // if (!_postClassification)
     makeTextures(false);// this mode doesn't use a hardware LUT, so every voxel has to be updated
 
   vvGLTools::printGLError("leave updateLUT()");
