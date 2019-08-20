@@ -145,7 +145,7 @@ struct Kernel
             //color = shade(color, -ray.dir, tex_coord);
 
             // opacity correction
-            color.w = 1.0f - pow(1.0f - color.w, dt);
+           // color.w = 1.0f - pow(1.0f - color.w, dt);
 
             // premultiplied alpha
             color.xyz() *= color.w;
@@ -477,8 +477,8 @@ struct vvSimpleCaster::Impl
         : sched(8, 8)
 //      , tree(virvo::SkipTree::Grid)
 //      , tree(virvo::SkipTree::LBVH)
-//      , tree(virvo::SkipTree::SVTKdTree)
-        , tree(virvo::SkipTree::SVTKdTreeCU)
+      , tree(virvo::SkipTree::SVTKdTree)
+   //     , tree(virvo::SkipTree::SVTKdTreeCU)
     {
     }
 
@@ -749,7 +749,7 @@ void vvSimpleCaster::updateTransferFunction()
 //  std::cout << numNodes << '\n';
     }
     {
-    impl_->tree.updateTransfunc(nullptr, 1, 1, 1, virvo::PF_RGBA32F);
+   // impl_->tree.updateTransfunc(nullptr, 1, 1, 1, virvo::PF_RGBA32F);
     tex_filter_mode filter_mode = getParameter(VV_SLICEINT).asInt() == virvo::Linear ? Linear : Nearest;
     virvo::PixelFormat texture_format = virvo::PF_R8;
     virvo::TextureUtil tu(vd);

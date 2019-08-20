@@ -1,17 +1,12 @@
 #version 430
-
-in vec3 Color;
-in float Volumen;
-//out vec4 FragColor;
-
-uniform uint MaxNodes;
+#extension GL_ARB_fragment_shader_interlock : enable
 
 struct NodeType {
- // vec4 color;
   float depth;
   uint next;
 };
 
+layout( pixel_interlock_ordered ) in;
 layout( binding = 0, r32ui) uniform uimage2D headPointers;
 layout( binding = 0, offset = 0) uniform atomic_uint nextNodeCounter;
 layout( binding = 0, std430 ) buffer linkedLists {
@@ -19,20 +14,14 @@ layout( binding = 0, std430 ) buffer linkedLists {
 };
 
 
-void main() {
-    //discard all fragments with "Volumen <1"
-   if(Volumen < 0.99)
-    	discard;
-  //atomic counter - every fragment gets an unique nodeIdx  	
-  uint nodeIdx = atomicCounterIncrement(nextNodeCounter);
+void main() {  
 
-  //if( nodeIdx < MaxNodes ) 
-	//{
-	//get prev head of the list and write new head in headPointers
-    	uint prevHead = imageAtomicExchange(headPointers, ivec2(gl_FragCoord.xy), nodeIdx);  
-     	//nodes[nodeIdx].color = vec4(Color,0.5);
-    	nodes[nodeIdx].depth = gl_FragCoord.z;   
-    	nodes[nodeIdx].next = prevHead;	
-    	//FragColor = vec4(1.0,1.0,0.0,1.0);// only for test
-  //	}
+     	beginInvocationInterlockARB();
+ 		//atomic counter - every fragment gets an unique nodeIdx 	
+ 		uint nodeIdx = atomicCounterIncrement(nextNodeCounter);
+  		uint prevHead = imageAtomicExchange(headPointers, ivec2(gl_FragCoord.xy), nodeIdx);      	
+  		nodes[nodeIdx].depth = gl_FragCoord.z;   
+  		nodes[nodeIdx].next = prevHead; 
+    	endInvocationInterlockARB();
+    	
 }
