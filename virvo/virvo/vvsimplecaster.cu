@@ -1,4 +1,3 @@
-
 #ifndef NDEBUG
 #include <iostream>
 #include <ostream>
@@ -40,6 +39,8 @@
 #include <iomanip>
 
 using namespace visionaray;
+
+#define COUNT_INTEGRATION_STEPS 1
 
 
 //-------------------------------------------------------------------------------------------------
@@ -118,14 +119,14 @@ struct Kernel
 
     template <typename R, typename T, typename C>
     VSNRAY_FUNC
-    void integrate(R ray, T t, T tmax, C& dst) const
+    void integrate(R ray, T t, T tmax, C& dst, int pixel) const
     {
-        integrate(ray, t, tmax, dst, delta);
+        integrate(ray, t, tmax, dst, delta, pixel);
     }
 
     template <typename R, typename T, typename C>
     VSNRAY_FUNC
-    void integrate(R ray, T t, T tmax, C& dst, T dt) const
+    void integrate(R ray, T t, T tmax, C& dst, T dt, int pixel) const
     {
         auto pos = ray.ori + ray.dir * t;
 
@@ -141,6 +142,10 @@ struct Kernel
         {
             T voxel = tex3D(volume, tex_coord);
             C color = tex1D(transfunc, voxel);
+
+#if COUNT_INTEGRATION_STEPS
+            ++counts[pixel];
+#endif
 
             //color = shade(color, -ray.dir, tex_coord);
 
@@ -161,7 +166,7 @@ struct Kernel
 
     template <typename R>
     VSNRAY_FUNC
-    result_record<typename R::scalar_type> ray_marching_naive(R ray) const
+    result_record<typename R::scalar_type> ray_marching_naive(R ray, int pixel) const
     {
         using S = typename R::scalar_type;
         using C = vector<4, S>;
@@ -178,14 +183,14 @@ struct Kernel
         auto t = max(S(0.0f), hit_rec.tnear);
         auto tmax = hit_rec.tfar;
 
-        integrate(ray, t, tmax, result.color);
+        integrate(ray, t, tmax, result.color, pixel);
 
         return result;
     }
 
     template <typename R>
     VSNRAY_FUNC
-    result_record<typename R::scalar_type> ray_marching_traverse_grid(R ray) const
+    result_record<typename R::scalar_type> ray_marching_traverse_grid(R ray, int pixel) const
     {
         using S = typename R::scalar_type;
         using C = vector<4, S>;
@@ -231,7 +236,7 @@ struct Kernel
             // If we visited this cell before then it must not be empty.
             if (cellIndex == hit_cell)
             {
-                integrate(ray, t, t + delta, result.color);
+                integrate(ray, t, t + delta, result.color, pixel);
                 t += delta;
                 continue;
             }
@@ -251,7 +256,7 @@ struct Kernel
             // Return the hit point if the grid cell is not fully transparent.
             if (maximumOpacity > 0.0f)
             {
-                integrate(ray, t, t + delta, result.color);
+                integrate(ray, t, t + delta, result.color, pixel);
                 t += delta;
                 continue;
             }
@@ -278,7 +283,7 @@ struct Kernel
 
     template <typename R>
     VSNRAY_FUNC
-    result_record<typename R::scalar_type> ray_marching_traverse_leaves(R ray) const
+    result_record<typename R::scalar_type> ray_marching_traverse_leaves(R ray, int pixel) const
     {
         using S = typename R::scalar_type;
         using C = vector<4, S>;
@@ -298,7 +303,7 @@ struct Kernel
 
             auto t = max(S(0.0), hit_rec.tnear);
             auto tmax = hit_rec.tfar;
-            integrate(ray, t, tmax, result.color);
+            integrate(ray, t, tmax, result.color, pixel);
         }
 
         return result;
@@ -306,7 +311,7 @@ struct Kernel
 
     template <typename R>
     VSNRAY_FUNC
-    result_record<typename R::scalar_type> ray_marching_traverse_full(R ray) const
+    result_record<typename R::scalar_type> ray_marching_traverse_full(R ray, int pixel) const
     {
         using S = typename R::scalar_type;
         using C = vector<4, S>;
@@ -373,7 +378,7 @@ next:
 
             // traverse leaf
             auto hr = intersect(ray, get_bounds(node), inv_dir);
-            integrate(ray, hr.tnear, hr.tfar, result.color);
+            integrate(ray, hr.tnear, hr.tfar, result.color, pixel);
             t = max(t, hr.tfar - delta);
         }
 
@@ -382,22 +387,26 @@ next:
 
     template <typename R>
     VSNRAY_FUNC
-    result_record<typename R::scalar_type> operator()(R ray) const
+    result_record<typename R::scalar_type> operator()(R ray, int x, int y) const
     {
+      int pixel = 0;
+#if COUNT_INTEGRATION_STEPS
+      pixel = y * width_ + x;
+#endif
       switch (mode)
       {
       case Grid:
-        return ray_marching_traverse_grid(ray);
+        return ray_marching_traverse_grid(ray, pixel);
 
       case Leaves:
-        return ray_marching_traverse_leaves(ray);
+        return ray_marching_traverse_leaves(ray, pixel);
 
       case Full:
-        return ray_marching_traverse_full(ray);
+        return ray_marching_traverse_full(ray, pixel);
 
       default:
       case Naive:
-        return ray_marching_naive(ray);
+        return ray_marching_naive(ray, pixel);
       }
     }
 
@@ -426,6 +435,11 @@ next:
     };
 
     TraversalMode mode;
+
+#if COUNT_INTEGRATION_STEPS
+    int* counts;
+    int width_;
+#endif
 };
 
 class virvo_render_target
@@ -604,6 +618,13 @@ void vvSimpleCaster::renderVolumeGL()
     kernel.local_shading = getParameter(VV_LIGHTING);
     kernel.light         = light;
 
+#if COUNT_INTEGRATION_STEPS
+    thrust::device_vector<int> d_counts(viewport.w * viewport.h);
+    thrust::fill(thrust::device, d_counts.begin(), d_counts.end(), 0);
+    kernel.counts = thrust::raw_pointer_cast(d_counts.data());
+    kernel.width_ = viewport.w;
+#endif
+
     if (full)
         kernel.nodes         = impl_->device_tree;
 
@@ -721,6 +742,12 @@ void vvSimpleCaster::renderVolumeGL()
             glEnable(GL_LIGHTING);
     }
 
+#if COUNT_INTEGRATION_STEPS
+    thrust::host_vector<int> h_counts(d_counts);
+
+    for (int i : h_counts)
+        std::cout << i << '\n';
+#endif
     //std::cout << std::fixed << std::setprecision(8);
     //std::cout << t.elapsed() << std::endl;
 }

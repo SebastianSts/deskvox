@@ -123,7 +123,7 @@ void vvSparseRenderer::initVBO(std::vector<virvo::aabb> boxes, bool newBuffer)
                         virvo::vec3((boxes[i].min.x+boxes[i].max.x)*0.5, (boxes[i].max.y+boxes[i].max.y)*0.5, (boxes[i].min.z+boxes[i].max.z)*0.5), //top
                         virvo::vec3((boxes[i].min.x+boxes[i].max.x)*0.5, (boxes[i].min.y+boxes[i].min.y)*0.5, (boxes[i].min.z+boxes[i].max.z)*0.5), //bottom
                         };
-                    virvo::vec3 testMiddle[6] = middle;
+                    virvo::vec3* testMiddle = middle;
 
                    virvo::vec3* first = reinterpret_cast<virvo::vec3*>(middle);
                    virvo::vec3* last = reinterpret_cast<virvo::vec3*>(middle + 6);
