@@ -25,6 +25,7 @@ layout( binding = 0, r32ui) uniform uimage2D headPointers;
 layout( binding = 0, std430 ) buffer linkedLists {
   NodeType nodes[];
 };
+layout( binding = 0, rgba32ui) uniform writeonly uimage2D Counter;
 
 uint ll_prev(uint start, uint current)
 	{ 
@@ -130,6 +131,7 @@ while(n != 0xffffffff && nodes[n].next != 0xffffffff)
 	} 
 	n = nodes[exitNode].next;	
 }
+    	imageStore(Counter, ivec2(gl_FragCoord.xy), uvec4(23));
     //FragColor = mix(color, colorAccum, colorAccum.w); // blend the background color using an "under" blend operation*/
     	FragColor = colorAccum;
     //FragColor=vec4(StepSize*128.0,0.0,0.0,count/255.0 );

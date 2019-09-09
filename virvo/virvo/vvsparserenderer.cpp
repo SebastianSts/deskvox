@@ -57,6 +57,11 @@ void vvSparseRenderer::initVol3DTex()
 }
 
 
+void vvSparseRenderer::initCounter()
+{
+    g_CounterImage.reset(gl::createTexture());
+}
+
 vvSparseRenderer::vvSparseRenderer(vvVolDesc* vd, vvRenderState renderState)
     : vvRenderer(vd, renderState)
     //      , tree(virvo::SkipTree::Grid)
@@ -83,6 +88,7 @@ vvSparseRenderer::vvSparseRenderer(vvVolDesc* vd, vvRenderState renderState)
         data = vd->getRaw(0);
         initVol3DTex();
         initHeadPtrTex(g_winWidth,g_winHeight);
+        initCounter();
         initLinkedList();
         initClearBuffers();
         updateVolumeData();
@@ -295,6 +301,19 @@ void vvSparseRenderer::clearBuffers()
     glBindBuffer(GL_PIXEL_UNPACK_BUFFER, 0);
     }
 
+void vvSparseRenderer::clearCounter()
+    {
+    vector<GLuint> nulls(g_winWidth*g_winHeight*4, 0x0);
+    glBindTexture(GL_TEXTURE_2D, g_CounterImage.get());
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+    glPixelStorei(GL_UNPACK_ALIGNMENT,1);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, g_winWidth, g_winHeight, 0, GL_RGBA,
+                    GL_UNSIGNED_INT, nulls.data());
+    }
+
 
 void vvSparseRenderer::setUniformsPassOne(vvShaderProgram* shader){
      shader->setParameterMatrix4f("MVP",mvp);
@@ -304,6 +323,7 @@ void vvSparseRenderer::setUniformsPassOne(vvShaderProgram* shader){
 
 void vvSparseRenderer::setUniformsPassTwo(vvShaderProgram* shader){
      shader->setParameterTex3D("VolumeTex",g_volTexObj.get());
+     shader->setParameterTex2D("Counter",g_CounterImage.get());
      shader->setParameterTex1D("TransferFunc",g_tffTexObj.get());
      shader->setParameter1f("StepSize",g_stepSize);
      shader->setParameter1f("ScaleX",scaleX);
@@ -419,6 +439,7 @@ void vvSparseRenderer::renderVolumeGL(){
 
     //clear HeadPtrTex
     clearBuffers();
+    clearCounter();
     glClearColor(0.0f,0.0f,0.0f,1.0f);
     //first render pass
     pass= 1;
@@ -434,7 +455,16 @@ void vvSparseRenderer::renderVolumeGL(){
     render();
     shaderPassTwo->disable();
 
+    {
 
+        vector<GLuint> pixels(g_winWidth*g_winHeight*4);
+        glBindTexture(GL_TEXTURE_2D, g_CounterImage.get());
+        glGetnTexImage(GL_TEXTURE_2D, 0, GL_RGBA, GL_UNSIGNED_INT,
+                       g_winWidth*g_winHeight*4*4, pixels.data());
+        for (auto ui : pixels)
+            if (ui != 0) std::cout << ui << '\n';
+
+    }
 
     if (_boundaries)
        {

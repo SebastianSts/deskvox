@@ -41,12 +41,14 @@ private:
 
     void initLinkedList();						///< Init linked list
     void initClearBuffers();						///< Init clear buffer to reset nodeIdx 	
+    void initCounter();
     void initVBO(std::vector<virvo::aabb> boxes, bool newBuffer);
     void initVBOFace();
     void initVol3DTex();						///< Init volume on graphicscard
     void initHeadPtrTex(GLuint bfTexWidth, GLuint bfTexHeight);	
     void resizeBuffer(uint newWidth, uint newHeight);			///< Resize linked list when size of viewport changes		
     void clearBuffers();						///< Reset nodeIdx 
+    void clearCounter();
     void setUniformsPassOne(vvShaderProgram* shader);			///< Uniforms for pass 1 (generate linked list)
     void setUniformsPassTwo(vvShaderProgram* shader);			///< Uniforms for pass 2 (sort & render fragments of linked list) 
     void render();							///< Render (pass 1, pass2)     
@@ -58,6 +60,7 @@ private:
     GLint g_winWidth, g_winHeight;		 			///< Size of the window							
     GLfloat texSizeX, texSizeY,texSizeZ;				///< Size of the texture
     virvo::gl::Texture g_HeadPtrTex;						///< Handle for 
+    virvo::gl::Texture g_CounterImage;
     virvo::gl::Texture g_volTexObj;					///< Handle for volume
     virvo::gl::Texture g_tffTexObj;					///< Handle for transfer function
     
