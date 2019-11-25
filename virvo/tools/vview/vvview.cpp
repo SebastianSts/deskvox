@@ -1985,7 +1985,7 @@ double vvView::performanceTest()
     totalTime->start();
     ds->renderer->profileStart();
 
-    for (angle=0; angle<180; angle+=2)
+    for (angle=0; angle<360; angle+=2)
     {
       ds->ov->mv.rotate(step, 0.0f, 1.0f, 0.0f);  // rotate model view matrix
       ds->displayCallback();
@@ -1994,7 +1994,7 @@ double vvView::performanceTest()
 
     //ds->ov->reset();
     //ds->ov->mv.scaleLocal(ds->mvScale);
-    for (angle=0; angle<180; angle+=2)
+    for (angle=0; angle<360; angle+=2)
     {
       ds->ov->mv.rotate(step, 0.0f, 0.0f, 1.0f);  // rotate model view matrix
       ds->displayCallback();
@@ -2003,14 +2003,13 @@ double vvView::performanceTest()
 
     //ds->ov->reset();
     //ds->ov->mv.scaleLocal(ds->mvScale);
-    for (angle=0; angle<180; angle+=2)
+    for (angle=0; angle<360; angle+=2)
     {
       ds->ov->mv.rotate(step, 1.0f, 0.0f, 0.0f);  // rotate model view matrix
       ds->displayCallback();
       ++framesRendered;
     }
     total = totalTime->getTime() / framesRendered;
-
     printProfilingResult(totalTime, framesRendered);
 
     delete totalTime;

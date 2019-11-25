@@ -1,4 +1,5 @@
 #include <GL/glew.h>
+#include "vvclock.h"
 #include "vvvoldesc.h"
 #include "vvsparserenderer.h"
 #include "vvshaderfactory.h"
@@ -10,6 +11,8 @@
 #include <fstream>
 #include "vvspaceskip.h"
 
+#define COUNT_INTEGRATION_STEPS 0
+
 using namespace std;
 namespace gl = virvo::gl;
 //size of the window
@@ -18,11 +21,8 @@ int pass = 1;                                         ///< 1 = first pass, 2 = s
 float g_stepSize;                                     ///< Size of steps used by raymarcher
 GLuint nodeSize = sizeof(GLfloat) + sizeof(GLuint);   ///< Float for depth, uint for pointer to next node
 int first =0;
-//bool sortEveryCube = true;
 bool sortEveryCube = false;
-float scaleX = 1.0;
-float scaleY;
-float scaleZ;
+
 
 
 enum{
@@ -45,7 +45,7 @@ void vvSparseRenderer::initVol3DTex()
        g_volTexObj.reset(gl::createTexture());
        glBindTexture(GL_TEXTURE_3D, g_volTexObj.get());
        glPixelStorei(GL_UNPACK_ALIGNMENT,1);
-       glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
+       //glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
        glTexParameteri(GL_TEXTURE_3D_EXT, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
        glTexParameteri(GL_TEXTURE_3D_EXT, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
        glTexParameteri(GL_TEXTURE_3D_EXT, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
@@ -57,17 +57,12 @@ void vvSparseRenderer::initVol3DTex()
 }
 
 
-void vvSparseRenderer::initCounter()
-{
-    g_CounterImage.reset(gl::createTexture());
-}
-
 vvSparseRenderer::vvSparseRenderer(vvVolDesc* vd, vvRenderState renderState)
     : vvRenderer(vd, renderState)
-    //      , tree(virvo::SkipTree::Grid)
+      //    , tree(virvo::SkipTree::Grid)
     //      , tree(virvo::SkipTree::LBVH)
-          , tree(virvo::SkipTree::SVTKdTree)
-    //        , tree(virvo::SkipTree::SVTKdTreeCU)
+         , tree(virvo::SkipTree::SVTKdTree)
+     //       , tree(virvo::SkipTree::SVTKdTreeCU)
 {
 
         rendererType = RAYRENDSPARSE;
@@ -76,7 +71,7 @@ vvSparseRenderer::vvSparseRenderer(vvVolDesc* vd, vvRenderState renderState)
         g_winWidth = viewport[2];
         g_winHeight = viewport[3];
         g_tffTexObj.reset(gl::createTexture());
-        maxNodes = g_winWidth * g_winHeight*200 ;
+        maxNodes = g_winWidth * g_winHeight*50 ;
         bbox = vd->getBoundingBox();
        // std::cout<<bbox.size()<<std::endl;
         _shaderFactory.reset(new vvShaderFactory());
@@ -88,7 +83,6 @@ vvSparseRenderer::vvSparseRenderer(vvVolDesc* vd, vvRenderState renderState)
         data = vd->getRaw(0);
         initVol3DTex();
         initHeadPtrTex(g_winWidth,g_winHeight);
-        initCounter();
         initLinkedList();
         initClearBuffers();
         updateVolumeData();
@@ -129,7 +123,7 @@ void vvSparseRenderer::initVBO(std::vector<virvo::aabb> boxes, bool newBuffer)
                         virvo::vec3((boxes[i].min.x+boxes[i].max.x)*0.5, (boxes[i].max.y+boxes[i].max.y)*0.5, (boxes[i].min.z+boxes[i].max.z)*0.5), //top
                         virvo::vec3((boxes[i].min.x+boxes[i].max.x)*0.5, (boxes[i].min.y+boxes[i].min.y)*0.5, (boxes[i].min.z+boxes[i].max.z)*0.5), //bottom
                         };
-                    virvo::vec3* testMiddle = middle;
+                    virvo::vec3 testMiddle[6] = middle;
 
                    virvo::vec3* first = reinterpret_cast<virvo::vec3*>(middle);
                    virvo::vec3* last = reinterpret_cast<virvo::vec3*>(middle + 6);
@@ -261,6 +255,8 @@ void vvSparseRenderer::resizeBuffer(uint newWidth, uint newHeight)
     {
     g_winWidth = newWidth;
     g_winHeight = newHeight;
+    std::cout<<"Width "<<g_winWidth<<std::endl;
+    std::cout<<"Height "<<g_winHeight<<std::endl;
     maxNodes = g_winHeight * g_winWidth * 50;
     initHeadPtrTex(g_winWidth,g_winHeight);
     initLinkedList();
@@ -301,18 +297,6 @@ void vvSparseRenderer::clearBuffers()
     glBindBuffer(GL_PIXEL_UNPACK_BUFFER, 0);
     }
 
-void vvSparseRenderer::clearCounter()
-    {
-    vector<GLuint> nulls(g_winWidth*g_winHeight*4, 0x0);
-    glBindTexture(GL_TEXTURE_2D, g_CounterImage.get());
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-    glPixelStorei(GL_UNPACK_ALIGNMENT,1);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, g_winWidth, g_winHeight, 0, GL_RGBA,
-                    GL_UNSIGNED_INT, nulls.data());
-    }
 
 
 void vvSparseRenderer::setUniformsPassOne(vvShaderProgram* shader){
@@ -323,7 +307,6 @@ void vvSparseRenderer::setUniformsPassOne(vvShaderProgram* shader){
 
 void vvSparseRenderer::setUniformsPassTwo(vvShaderProgram* shader){
      shader->setParameterTex3D("VolumeTex",g_volTexObj.get());
-     shader->setParameterTex2D("Counter",g_CounterImage.get());
      shader->setParameterTex1D("TransferFunc",g_tffTexObj.get());
      shader->setParameter1f("StepSize",g_stepSize);
      shader->setParameter1f("ScaleX",scaleX);
@@ -331,7 +314,7 @@ void vvSparseRenderer::setUniformsPassTwo(vvShaderProgram* shader){
      shader->setParameter1f("ScaleZ",scaleZ);
      shader->setParameter1f("ScreenSizeX",g_winWidth);
      shader->setParameter1f("ScreenSizeY",g_winHeight);
-     shader->setParameterMatrix4f("texMat",texMat);
+     shader->setParameterMatrix4f("invMVP",invMVP);
 
     }
 void vvSparseRenderer::updateTransferFunction()
@@ -342,7 +325,7 @@ void vvSparseRenderer::updateTransferFunction()
      glBindTexture(GL_TEXTURE_1D, g_tffTexObj.get());
      if (!parameter) {
          glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
-         glTexParameteri(GL_TEXTURE_1D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+         glTexParameteri(GL_TEXTURE_1D, GL_TEXTURE_WRAP_S, GL_CLAMP);
          glTexParameteri(GL_TEXTURE_1D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
          glTexParameteri(GL_TEXTURE_1D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
          parameter++;
@@ -353,6 +336,7 @@ void vvSparseRenderer::updateTransferFunction()
      bool frontToBack = false;
      std::vector<virvo::aabb> bricks = tree.getSortedBricks(eye, frontToBack);
      numBoxes = bricks.size();
+     std::cout<<"Number of Boxes "<< numBoxes <<std::endl;
 
 
      newBuffer = true;
@@ -390,10 +374,13 @@ void vvSparseRenderer::renderVolumeGL(){
 
     virvo::vec3 eye(getEyePosition().x, getEyePosition().y, getEyePosition().z);
     bool frontToBack = false;
+    //vvStopwatch watch;
+   // watch.start();
     std::vector<virvo::aabb> bricks = tree.getSortedBricks(eye, frontToBack);
     numBoxes = bricks.size();
-    newBuffer = false;
+    newBuffer = true;
     initVBO(bricks, newBuffer);
+   // std::cout << watch.getTime() << '\n';
     glGetIntegerv(GL_VIEWPORT, viewport.data());
     //buffer needs to be resized if viewport changes
     if(g_winWidth != viewport[2] || g_winHeight != viewport[3])
@@ -402,9 +389,10 @@ void vvSparseRenderer::renderVolumeGL(){
     glGetFloatv(GL_MODELVIEW_MATRIX, view_matrix.data());
     glGetFloatv(GL_PROJECTION_MATRIX, proj_matrix.data());
     mvp = proj_matrix*view_matrix;
-    texMat = inverse(mvp);
-    texMat = translate(virvo::mat4::identity(), bbox.max)*texMat;
-    texMat = scale(virvo::mat4::identity(), virvo::vec3f(1.f)/bbox.size())* texMat;
+    invMVP = inverse(mvp);
+    invMVP = translate(virvo::mat4::identity(), bbox.max)*invMVP;
+
+
 
     int axis = 0;
         if (vd->getSize()[1] / vd->vox[1] < vd->getSize()[axis] / vd->vox[axis])
@@ -418,7 +406,7 @@ void vvSparseRenderer::renderVolumeGL(){
 
          g_stepSize = (vd->getSize()[axis] / vd->vox[axis]) / _quality;
 
-         virvo::vec3 pt1(0.f);
+        /* virvo::vec3 pt1(0.f);
          virvo::vec3 pt2(g_stepSize,0,0);
 
          virvo::vec3 tpt1(
@@ -433,14 +421,16 @@ void vvSparseRenderer::renderVolumeGL(){
                  (-pt2.z + (bbox.size().z / 2) ) / bbox.size().z
                  );
          virvo::vec3 v = tpt2-tpt1;
-         g_stepSize = virvo::length(v);
-         scaleY = bbox.size().y / bbox.size().x;
-         scaleZ = bbox.size().z / bbox.size().x;
+         g_stepSize = virvo::length(v);*/
+         scaleX = bbox.size().x;
+         scaleY = bbox.size().y;
+         scaleZ = bbox.size().z;
+
 
     //clear HeadPtrTex
     clearBuffers();
-    clearCounter();
-    glClearColor(0.0f,0.0f,0.0f,1.0f);
+
+    glClearColor(1.0f,1.0f,1.0f,1.0f);
     //first render pass
     pass= 1;
     shaderPassOne->enable();
@@ -453,18 +443,31 @@ void vvSparseRenderer::renderVolumeGL(){
     shaderPassTwo->enable();
     setUniformsPassTwo(shaderPassTwo);
     render();
-    shaderPassTwo->disable();
-
+# if COUNT_INTEGRATION_STEPS
     {
 
-        vector<GLuint> pixels(g_winWidth*g_winHeight*4);
-        glBindTexture(GL_TEXTURE_2D, g_CounterImage.get());
-        glGetnTexImage(GL_TEXTURE_2D, 0, GL_RGBA, GL_UNSIGNED_INT,
-                       g_winWidth*g_winHeight*4*4, pixels.data());
-        for (auto ui : pixels)
-            if (ui != 0) std::cout << ui << '\n';
+        vector<GLuint> pixels(g_winWidth*g_winHeight);
+        glBindTexture(GL_TEXTURE_2D, g_HeadPtrTex.get());
+        glGetTexImage(GL_TEXTURE_2D, 0, GL_RED_INTEGER, GL_UNSIGNED_INT,
+                        pixels.data());
+        uint iterations=0;
+       /* for (int i=0;i<g_winWidth*g_winHeight;i++)
+        {
+            iterations += pixels[i];
+        }
+        iterations = iterations/(g_winWidth*g_winHeight);
+        std::cout<<iterations<<std::endl;*/
+
+
+        std::cout<<std::accumulate (pixels.begin(), pixels.end(), 0)<<std::endl;
 
     }
+#endif
+    shaderPassTwo->disable();
+    glDeleteBuffers(2, gbo);
+    glDeleteVertexArrays(1, &g_vao);
+
+
 
     if (_boundaries)
        {

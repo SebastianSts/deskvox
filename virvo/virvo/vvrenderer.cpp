@@ -1518,7 +1518,7 @@ vec3f vvRenderer::getEyePosition() const
     mat4 invMV = inverse( gl::getModelviewMatrix() );
 
     vec4 projEye = invMV * ( invPM * vec4(0.0f, 0.0f, -1.0f, 0.0f) );
-    return projEye.w == 0.f ? projEye.xyz()  : projEye.xyz()/ projEye.w;
+    return projEye.w == 0.f ? projEye.xyz()*49.995f  : projEye.xyz()/ projEye.w;
 }
 
 //----------------------------------------------------------------------------

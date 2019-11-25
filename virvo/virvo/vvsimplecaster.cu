@@ -40,7 +40,7 @@
 
 using namespace visionaray;
 
-#define COUNT_INTEGRATION_STEPS 1
+#define COUNT_INTEGRATION_STEPS 0
 
 
 //-------------------------------------------------------------------------------------------------
@@ -138,8 +138,34 @@ struct Kernel
 
         vector<3, T> inc = (ray.dir * delta / bbox.size()) * vec3(1,-1,-1);
 
+/*#ifdef __CUDA_ARCH__
+	unsigned active = __ballot_sync(0xFFFFFFFF, t < tmax);
+	int bla = __popc(active);
+	counts[pixel]=bla;
+	//unsigned mask = __activemask();
+	//int bla = __popc(mask);
+	//__syncwarp();
+	//printf("%d\n", bla);
+#endif*/
+
+//#if COUNT_INTEGRATION_STEPS
+//	int bla;
+  //     counts[pixel]=bla;
+    //    #endif
+    
+       // int bli =0;
+      //  int bla=0 ;
+      //  int blub =0;
+     
+        
+#ifdef __CUDA_ARCH__
+
+	//bool all_active = __all(t < tmax);
+	
+#endif  
+
         while (t < tmax)
-        {
+        {        
             T voxel = tex3D(volume, tex_coord);
             C color = tex1D(transfunc, voxel);
 
@@ -156,12 +182,70 @@ struct Kernel
             color.xyz() *= color.w;
 
             // compositing
-            dst += color * (1.0f - dst.w);
+           dst += color * (1.0f - dst.w);
 
             // step on
             tex_coord += inc;
             t += dt;
+           // numSteps++;
+           //break;
+            
         }
+        
+        //counts[pixel] = numSteps;
+        
+/*#ifdef __CUDA_ARCH__
+
+	int minSteps = INT_MAX;
+	int maxSteps = 0;
+	if (all_active)
+	{
+		int val = counts[pixel];
+		for (int offset = 0; offset< 32; offset++)
+		{
+			val = __shfl_up_sync(-1,val,offset);
+			minSteps = min(minSteps,val);
+			maxSteps = max(maxSteps,val);
+		}
+		
+		printf("%d %d\n", minSteps, maxSteps);
+	}
+	
+	//unsigned all_active = __ballot_sync(0xFFFFFFFF, active);
+	
+#endif
+#if 0//def __CUDA_ARCH__	
+	//__syncwarp();
+	//__syncthreads();
+	unsigned active = __ballot_sync(0xFFFFFFFF, numSteps>350);
+	bla = __popc(active);
+	//active = __ballot_sync(0xFFFFFFFF, numSteps<1);
+	//bli = __popc(active);	
+	if(active == 0x0)
+	{
+      		dst+=vec4(0,0,0,1);
+      	}
+      	else if(active == 0xFFFFFFFF)
+	{
+      		dst+=vec4(1,0,0,1);
+      	}	
+	else //if(bla>0 )//&& numSteps<10)	
+	{
+		dst+=vec4(1,1,1,1);
+      	//counts[pixel]+=350-numSteps;
+      	//counts[pixel]+=1;
+      	//float b = (350)/1024.0f;
+      	//float b = 1.0f;
+      	//dst+=vec4(b);
+      	}      
+      	/*else
+      	{
+      	//counts[pixel]+=numSteps;
+      	counts[pixel]+=0;
+      	float c = 0.0;
+       // dst+=vec4(c);
+        }  
+#endif */ 
     }
 
     template <typename R>
@@ -619,8 +703,9 @@ void vvSimpleCaster::renderVolumeGL()
     kernel.light         = light;
 
 #if COUNT_INTEGRATION_STEPS
-    thrust::device_vector<int> d_counts(viewport.w * viewport.h);
-    thrust::fill(thrust::device, d_counts.begin(), d_counts.end(), 0);
+    cudaError_t err =cudaGetLastError();
+    //std::cout<<cudaGetErrorString(err)<<std::endl;    
+    thrust::device_vector<int> d_counts(viewport.w * viewport.h,0);
     kernel.counts = thrust::raw_pointer_cast(d_counts.data());
     kernel.width_ = viewport.w;
 #endif
@@ -744,9 +829,32 @@ void vvSimpleCaster::renderVolumeGL()
 
 #if COUNT_INTEGRATION_STEPS
     thrust::host_vector<int> h_counts(d_counts);
-
-    for (int i : h_counts)
-        std::cout << i << '\n';
+    uint activeThreads = std::accumulate (h_counts.begin(), h_counts.end(), 0);
+    std::cout<<activeThreads<<std::endl;
+   // uint uneqZero = 0;
+   // for(uint i=0 ; i<1024*1024; i++)
+  //  {
+    	//if(h_counts[i]>0)
+    		//uneqZero++;
+  //  	if(h_counts[i]>uneqZero)
+   // 		uneqZero = h_counts[i];
+   // 		
+  //  }
+   // std::cout<<"active Pixels"<<uneqZero<<std::endl;
+  // uint activeThreads = std::accumulate (h_counts.begin(), h_counts.end(), 0);
+   /* if(activeThreads>= uneqZero && uneqZero>0)
+    {
+    activeThreads = activeThreads/ uneqZero;
+    std::cout<<"Average of Warps with inactive Threads "<<activeThreads<<std::endl;
+    }
+    else
+    {*/
+  //  std::cout<<"Number Warps with inactive Threads "<<activeThreads<<std::endl;
+ // std::cout<<"Max. idle Warp "<<uneqZero<<std::endl;
+    //}
+    
+    //for (int i : h_counts)
+      //  std::cout << i << '\n';
 #endif
     //std::cout << std::fixed << std::setprecision(8);
     //std::cout << t.elapsed() << std::endl;
@@ -794,6 +902,7 @@ void vvSimpleCaster::updateTransferFunction()
         impl_->volumes[f].reset(reinterpret_cast<unorm<8> const*>(tex_data));
         impl_->volumes[f].set_address_mode(Clamp);
         impl_->volumes[f].set_filter_mode(filter_mode);
+        
     }
     }
 }

@@ -41,14 +41,14 @@ private:
 
     void initLinkedList();						///< Init linked list
     void initClearBuffers();						///< Init clear buffer to reset nodeIdx 	
-    void initCounter();
-    void initVBO(std::vector<virvo::aabb> boxes, bool newBuffer);
-    void initVBOFace();
-    void initVol3DTex();						///< Init volume on graphicscard
-    void initHeadPtrTex(GLuint bfTexWidth, GLuint bfTexHeight);	
+    void initCounter();							///< Init atomic counter
+    void initVBO(std::vector<virvo::aabb> boxes, bool newBuffer);	///< Init VBO for the first render pass
+    void initVBOFace();							///< Init VBO for the second render pass
+    void initVol3DTex();						///< Init 3D volume 
+    void initHeadPtrTex(GLuint bfTexWidth, GLuint bfTexHeight);		///< Init 2D texture for headpointers
     void resizeBuffer(uint newWidth, uint newHeight);			///< Resize linked list when size of viewport changes		
     void clearBuffers();						///< Reset nodeIdx 
-    void clearCounter();
+    void clearCounter();						///< Reset counter
     void setUniformsPassOne(vvShaderProgram* shader);			///< Uniforms for pass 1 (generate linked list)
     void setUniformsPassTwo(vvShaderProgram* shader);			///< Uniforms for pass 2 (sort & render fragments of linked list) 
     void render();							///< Render (pass 1, pass2)     
@@ -59,30 +59,31 @@ private:
     vvShaderProgram* initShader(); 					///< Init shaders, you guessed it   
     GLint g_winWidth, g_winHeight;		 			///< Size of the window							
     GLfloat texSizeX, texSizeY,texSizeZ;				///< Size of the texture
-    virvo::gl::Texture g_HeadPtrTex;						///< Handle for 
-    virvo::gl::Texture g_CounterImage;
+    virvo::gl::Texture g_HeadPtrTex;					///< Handle for headpointer texture
     virvo::gl::Texture g_volTexObj;					///< Handle for volume
-    virvo::gl::Texture g_tffTexObj;					///< Handle for transfer function
-    
-    GLuint g_vao;
-    GLuint g_vaoFace;
-    GLuint clearBuf;
-    GLuint buffers[2];
-    GLuint gbo[2];
+    virvo::gl::Texture g_tffTexObj;					///< Handle for transfer function    
+    GLuint g_vao;							///< Handle for vertex array object (used in the first render pass)
+    GLuint g_vaoFace;							///< Handle for vertex array object (used in the second render pass)
+    GLuint clearBuf;							///< Handle for clear buffer
+    GLuint buffers[2];							
+    GLuint gbo[2];							
     vvShaderProgram* shaderPassOne;
     vvShaderProgram* shaderPassTwo;
     uint8_t *data;
-    GLuint maxNodes;    
-    virvo::mat4 view_matrix;
-    virvo::mat4 proj_matrix;
-    virvo::mat4 mvp;
-    virvo::mat4 scaleMatrix;
-    virvo::mat4 texMat;
+    GLuint maxNodes;  							///< sets the maximum number of elements for the per-pixel linked lists   
+    virvo::mat4 view_matrix;										
+    virvo::mat4 proj_matrix;						
+    virvo::mat4 scaleMatrix;						
+    virvo::mat4 mvp;    						///< ModelViewProjection matrix (used in vertex shader of the first render pass)
+    virvo::mat4 invMVP;							///< InversModelViewProjection matrix (used in fragment shader in the second render pass)
     virvo::recti viewport;    
-    virvo::aabb bbox;
-    GLuint baseIndices[36];
+    virvo::aabb bbox;							///< Axis aligned bounding boxes
+    GLuint baseIndices[36];						///< Indices for the AABBs	
     bool newBuffer;
-    GLuint numBoxes;
+    GLuint numBoxes;    
+    float scaleX ;
+    float scaleY;
+    float scaleZ;
 
 
 

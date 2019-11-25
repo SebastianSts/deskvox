@@ -67,9 +67,9 @@ void KdTree::node_splitting(int index)
   vec3i len = nodes[index].bbox.max - nodes[index].bbox.min;
 
   int axis = 0;
-  if (len.y > len.x && len.y > len.z)
+  if (len.y >= len.x && len.y >= len.z)
     axis = 1;
-  else if (len.z > len.x && len.z > len.y)
+  else if (len.z >= len.x && len.z >= len.y)
     axis = 2;
 
   int lmax = len[axis];
@@ -128,12 +128,23 @@ void KdTree::node_splitting(int index)
   }
 
   // Halting criterion 2.)
-  if (best_p < 0)
-    return;
+   if(best_p < 0){
+      if(1)//(lmax<=64)
+      {
+          return;}
+      else{
+          best_p = lmax/2;
+          nodes[index].axis = axis;
+          nodes[index].splitpos = first +  best_p;
 
+          lbox.max[axis] = first +best_p;
+          rbox.min[axis] = first + best_p;}
+  }
+  else{
   // Store split plane for traversal
   nodes[index].axis = axis;
   nodes[index].splitpos = first + dl * best_p;
+  }
 
   nodes[index].left = static_cast<int>(nodes.size());
   nodes[index].right = static_cast<int>(nodes.size()) + 1;

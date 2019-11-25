@@ -22,6 +22,7 @@
 #define VV_SIMPLECASTER_H 1
 
 #include <boost/scoped_ptr.hpp>
+#include <thrust/device_vector.h>
 
 #include "vvrenderer.h"
 
@@ -42,6 +43,8 @@ public:
 //private:
     struct Impl;
     boost::scoped_ptr<Impl> impl_;
+    thrust::device_vector<float> d_counts;
+    
 
 private:
 
