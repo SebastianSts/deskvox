@@ -16,12 +16,12 @@ layout( binding = 0, std430 ) buffer linkedLists {
 
 void main() {  
 
-     	//beginInvocationInterlockARB();
+     	beginInvocationInterlockARB();
  		//atomic counter - every fragment gets an unique nodeIdx 	
  		uint nodeIdx = atomicCounterIncrement(nextNodeCounter);
   		uint prevHead = imageAtomicExchange(headPointers, ivec2(gl_FragCoord.xy), nodeIdx);      	
   		nodes[nodeIdx].depth = gl_FragCoord.z;   
   		nodes[nodeIdx].next = prevHead; 
-    	//endInvocationInterlockARB();
+    	endInvocationInterlockARB();
     	
 }

@@ -41,7 +41,8 @@
 using namespace visionaray;
 
 #define COUNT_INTEGRATION_STEPS 0
-
+#define MERGE 1
+#define THETA 0.1
 
 //-------------------------------------------------------------------------------------------------
 //
@@ -168,6 +169,12 @@ struct Kernel
         {        
             T voxel = tex3D(volume, tex_coord);
             C color = tex1D(transfunc, voxel);
+          /*  if(color.w<FLT_EPSILON)
+            {
+            	color = C(1.f,0.f,0.f,0.01f);
+            }
+            else
+            	color = C(0.f,0.f,0.f,0.00f);*/
 
 #if COUNT_INTEGRATION_STEPS
             ++counts[pixel];
@@ -406,7 +413,12 @@ struct Kernel
         // traverse tree
         detail::stack<32> st;
         st.push(0);
-
+        bool first = true;
+	bool merge = false;
+	float near = 0.0f;
+	float far = 0.0f;
+	int count = 0;
+	
         auto inv_dir = 1.0f / ray.dir;
 
         float t = 0.0f;
@@ -459,14 +471,46 @@ next:
                     goto next;
                 }
             }
-
-            // traverse leaf
+     // traverse leaf
             auto hr = intersect(ray, get_bounds(node), inv_dir);
-            integrate(ray, hr.tnear, hr.tfar, result.color, pixel);
-            t = max(t, hr.tfar - delta);
-        }
 
+            //printf("%f\n",hr.tfar-hr.tnear);
+#if MERGE
+         	if(first == true)
+         	{
+         		near = hr.tnear;
+         		far = hr.tfar;
+         		//t = max(t, hr.tfar - delta);
+         		first = false;
+         		continue;
+         	}
+         	if(abs(far-hr.tnear) < THETA)
+         	{
+         	 	far = hr.tfar;
+         	 	//t = max(t, hr.tfar- delta); 
+         	      		
+         	}
+         	else
+         	{
+         		integrate(ray, near, far, result.color, pixel);
+         		near = hr.tnear;
+         		far = hr.tfar;
+         	}
+         
+           
+            
+#else 
+	integrate(ray, hr.tnear, hr.tfar, result.color, pixel);
+		//t = max(t, hr.tfar - delta);
+#endif
+           
+        }
+#if MERGE        
+         integrate(ray, near, far, result.color, pixel);
+#endif
         return result;
+    
+         
     }
 
     template <typename R>

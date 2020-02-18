@@ -1967,7 +1967,7 @@ double vvView::performanceTest()
   else
   {
     vvStopwatch* totalTime;
-    float step = 2.0f * VV_PI / 180.0f;
+    float step = 0.0f * VV_PI / 180.0f;
     int   angle;
     int   framesRendered = 0;
 

@@ -42,7 +42,8 @@ void KdTree::updateTransfunc(Tex transfunc)
 
   nodes.clear();
   nodes.emplace_back(root);
-  node_splitting(0);
+   int depth = 1;
+node_splitting(0, depth);
 #ifdef BUILD_TIMING
   //std::cout << "splitting: " << sw.getTime() << " sec.\n";
   std::cout << sw.getTime() << " \n";
@@ -64,5 +65,6 @@ void KdTree::updateTransfunc(Tex transfunc)
   }, true);
   std::cout << vol << " voxels bound in leaf nodes\n";
   std::cout << "Fraction bound: " << double(vol) / double(size_t(vox[0]) * vox[1] * vox[2]) << '\n';
+   std::cout << "depth: " << depth << '\n';
 #endif
 }

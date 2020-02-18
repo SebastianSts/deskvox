@@ -617,7 +617,7 @@ struct CudaKdTree::Impl
     }
   }
 
-  void node_splitting(int index);
+  void node_splitting(int index, int& depth);
   void renderGL(int index, vvColor color) const;
 
   CudaSVT<uint16_t> svt;
@@ -631,7 +631,7 @@ struct CudaKdTree::Impl
   thrust::device_vector<SkipTreeNode> d_nodes;
 };
 
-void CudaKdTree::Impl::node_splitting(int index)
+void CudaKdTree::Impl::node_splitting(int index, int& depth)
 {
   using visionaray::aabbi;
   using visionaray::vec3i;
@@ -649,11 +649,11 @@ void CudaKdTree::Impl::node_splitting(int index)
   I root_vol = static_cast<I>(rs.x) * rs.y * rs.z;
 
   // Halting criterion 1.)
-#ifdef SHALLOW
-  if (vol < root_vol / 10)
-#elif defined(DEEP)
+//#ifdef SHALLOW
+  //if (vol < root_vol / 10)
+//#elif defined(DEEP)
   if (vol < 8*8*8)
-#endif
+//#endif
     return;
 
   //if (s.x <= 32 || s.y <= 32 || s.z <= 32)
@@ -662,13 +662,9 @@ void CudaKdTree::Impl::node_splitting(int index)
   // Split along longest axis
   vec3i len = nodes[index].bbox.max - nodes[index].bbox.min;
 
-  int axis = 0;
-  if (len.y > len.x && len.y > len.z)
-    axis = 1;
-  else if (len.z > len.x && len.z > len.y)
-    axis = 2;
+  int axis = max_index(len);
 
-  static const int NumBins = BINS;
+  static const int NumBins = 4;//BINS;
 
   // Align on 8-voxel raster
   int dl = max(len[axis] / NumBins, 8);
@@ -733,7 +729,20 @@ void CudaKdTree::Impl::node_splitting(int index)
 
   // Halting criterion 2.)
   if (best_p < 0)
-    return;
+  {
+    if (len[axis] > 128)
+    {
+      best_p = num_planes/2;
+      int pos = first + dl * best_p;
+      // Align on 8-voxel raster
+      pos >>= 3;
+      pos <<= 3;
+      lbox.max[axis] = pos;
+      rbox.min[axis] = pos;
+    }
+    else
+      return;
+  }
 
   auto lvol = volume(lbox);
   auto rvol = volume(rbox);
@@ -756,8 +765,14 @@ void CudaKdTree::Impl::node_splitting(int index)
   right.bbox = rbox;
   nodes.emplace_back(right);
 
-  node_splitting(nodes[index].left);
-  node_splitting(nodes[index].right);
+  ++depth;
+  int depthl = depth;
+  int depthr = depth;
+
+  node_splitting(nodes[index].left, depthl);
+  node_splitting(nodes[index].right, depthr);
+
+  depth = max(depthl,depthr);
 }
 
 void CudaKdTree::Impl::renderGL(int index, vvColor color) const
@@ -894,7 +909,21 @@ void CudaKdTree::updateTransfunc(const visionaray::texture_ref<visionaray::vec4,
 
   impl_->nodes.clear();
   impl_->nodes.emplace_back(root);
-  impl_->node_splitting(0);
+  int depth = 1;
+  impl_->node_splitting(0, depth);
+  int numInner = 0;
+  int numLeaves = 0;
+#if 1 // leaves and depth stats
+  visionaray::vec3 ignoreEye(1);
+  impl_->traverse(0 /*root*/, ignoreEye, [&numInner,&numLeaves](Impl::Node const& n)
+  {
+    if (n.left == -1 && n.right == -1)
+      numLeaves++;
+    else
+      numInner++;
+  }, true);
+  std::cout << "inner,leaves,depth: " << numInner << ',' << numLeaves << ',' << depth << ",\n";
+#endif
 #ifdef BUILD_TIMING
   //std::cout << "splitting: " << timer.elapsed() << " sec.\n";
   double ttt = timer.elapsed();
@@ -904,9 +933,9 @@ void CudaKdTree::updateTransfunc(const visionaray::texture_ref<visionaray::vec4,
 #if 1//STATISTICS
   static int cnt = 0;
   static std::vector<double> values;
-  if (0)//cnt == 0) // Occupancy stats
+  if (0) //cnt == 0) // Occupancy stats
   {++cnt;std::cout << std::endl;
-  // Number of non-empty voxels (overall)
+  // Number of non-empty voxels (overall), number of 26-connected voxels
   thrust::host_vector<uint8_t> host_voxels(size_t(impl_->vox[0])*impl_->vox[1]*impl_->vox[2]);
   cudaMemcpy(host_voxels.data(), impl_->svt.voxels_, sizeof(uint8_t) * host_voxels.size(), cudaMemcpyDeviceToHost);
 
@@ -918,8 +947,45 @@ void CudaKdTree::updateTransfunc(const visionaray::texture_ref<visionaray::vec4,
     if (tex1D(transfunc, fval).w >= 0.0001)
       ++non_empty;
   }
+  /*size_t empty_26 = 0;
+  for (size_t z=1; z<impl_->vox[2]-1; ++z)
+  {
+    for (size_t y=1; y<impl_->vox[1]-1; ++y)
+    {
+      for (size_t x=1; x<impl_->vox[0]-1; ++x)
+      {
+        size_t index = z*impl_->vox[2]*impl_->vox[1] + y*impl_->vox[1] + x;
+        float fval(host_voxels[index]);
+        
+        if (tex1D(transfunc, fval).w < 0.0001)
+        {
+          bool all26empty = true;
+          for (size_t zz=z-1; zz<=z+1; ++zz)
+          {
+            for (size_t yy=y-1; yy<=y+1; ++yy)
+            {
+              for (size_t xx=x-1; xx<=x+1; ++xx)
+              {
+                size_t index2 = zz*impl_->vox[2]*impl_->vox[1] + yy*impl_->vox[1] + xx;
+                if (tex1D(transfunc, fval).w >= 0.0001)
+                {
+                  all26empty = false;
+                  goto out;
+                }
+              }
+            }
+          }
+          out:
+          if (all26empty) ++empty_26;
+        }
+      }
+    }
+  }*/
   std::cout << non_empty << " non-empty voxels of " <<size_t(impl_->vox[0]) * impl_->vox[1] * impl_->vox[2]<< '\n';
   std::cout << "Occupancy: " << double(non_empty) / double(size_t(impl_->vox[0]) * impl_->vox[1] * impl_->vox[2]) << '\n';
+
+  //std::cout << "# 26-connected empty voxels: " << empty_26 << '\n';
+  //std::cout << "# 26-connected empty voxels: (relative)" << empty_26 / double(size_t(impl_->vox[0]) * impl_->vox[1] * impl_->vox[2]) << '\n';
 
   // Number of voxels bound in leaves
   visionaray::vec3 eye(1,1,1);

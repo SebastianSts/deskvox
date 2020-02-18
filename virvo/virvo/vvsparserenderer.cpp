@@ -11,7 +11,7 @@
 #include <fstream>
 #include "vvspaceskip.h"
 
-#define COUNT_INTEGRATION_STEPS 0
+#define COUNT_INTEGRATION_STEPS 1
 
 using namespace std;
 namespace gl = virvo::gl;
@@ -59,8 +59,8 @@ void vvSparseRenderer::initVol3DTex()
 
 vvSparseRenderer::vvSparseRenderer(vvVolDesc* vd, vvRenderState renderState)
     : vvRenderer(vd, renderState)
-      //    , tree(virvo::SkipTree::Grid)
-    //      , tree(virvo::SkipTree::LBVH)
+        //  , tree(virvo::SkipTree::Grid)
+      //    , tree(virvo::SkipTree::LBVH)
          , tree(virvo::SkipTree::SVTKdTree)
      //       , tree(virvo::SkipTree::SVTKdTreeCU)
 {

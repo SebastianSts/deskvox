@@ -32,6 +32,9 @@
 
 #include <virvo/vvspaceskip.h>
 
+#define DEEP 1
+#define MAXSIZE 4096
+
 KdTree::~KdTree()
 {
   cudaFree(d_nodes);
@@ -48,7 +51,7 @@ void KdTree::updateVolume(vvVolDesc const& vd, int channel)
   psvt.reset(vd, aabbi(vec3i(0), vox), channel);
 }
 
-void KdTree::node_splitting(int index)
+void KdTree::node_splitting(int index, int& depth)
 {
   using namespace visionaray;
 
@@ -59,8 +62,11 @@ void KdTree::node_splitting(int index)
   int64_t root_vol = static_cast<int64_t>(rs.x) * rs.y * rs.z;
 
   // Halting criterion 1.)
-  //if (vol < root_vol / 10)
+#if !DEEP
+  if (vol < root_vol / 10)
+#else
   if (vol <= 8*8*8)
+#endif
     return;
 
   // Split along longest axis
@@ -129,10 +135,11 @@ void KdTree::node_splitting(int index)
 
   // Halting criterion 2.)
    if(best_p < 0){
-      if(1)//(lmax<=64)
+      if(lmax<=MAXSIZE)
       {
           return;}
       else{
+          printf("bnlabalalkbaslbf\n");
           best_p = lmax/2;
           nodes[index].axis = axis;
           nodes[index].splitpos = first +  best_p;
@@ -157,8 +164,14 @@ void KdTree::node_splitting(int index)
   right.bbox = rbox;
   nodes.emplace_back(right);
 
-  node_splitting(nodes[index].left);
-  node_splitting(nodes[index].right);
+  ++depth;
+    int depthl = depth;
+    int depthr = depth;
+
+    node_splitting(nodes[index].left, depthl);
+    node_splitting(nodes[index].right, depthr);
+
+  depth = max(depthl,depthr);
 }
 
 virvo::SkipTreeNode* KdTree::getNodesDevPtr(int& numNodes)

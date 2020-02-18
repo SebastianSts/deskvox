@@ -1,10 +1,12 @@
 #version 430
 
-#define SORT_FRAGMENTS 1
-#define COUNT_INTEGRATION_STEPS 0
+
+#define SORT_FRAGMENTS 0
+#define COUNT_INTEGRATION_STEPS 1
 #define MERGE_FRAGMENTS 0
-//#define theta 0.00002f 
-#define theta 0.002f 
+#define theta 0
+//#define theta 1e-8f
+//#define theta 0.0 
 		     
 out vec4 FragColor;
 
@@ -83,7 +85,7 @@ while(index != 0xffffffff && nodes[index].next != 0xffffffff)
 	exit = nodes[index].next;
 	
 #if MERGE_FRAGMENTS
-	while(abs(nodes[exit].depth - nodes[nodes[exit].next].depth)<theta)
+	while(abs(nodes[exit].depth - nodes[nodes[exit].next].depth)==0.0)
 		{
 		exit = nodes[nodes[exit].next].next;		
 		}
