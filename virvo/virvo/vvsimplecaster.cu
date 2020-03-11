@@ -41,7 +41,8 @@
 using namespace visionaray;
 
 #define COUNT_INTEGRATION_STEPS 0
-#define MERGE 1
+#define MERGE 0
+#define MAXMODE 1
 #define THETA 0.1
 
 //-------------------------------------------------------------------------------------------------
@@ -401,7 +402,7 @@ struct Kernel
     }
 
     template <typename R>
-    VSNRAY_FUNC
+    VSNRAY_GPU_FUNC
     result_record<typename R::scalar_type> ray_marching_traverse_full(R ray, int pixel) const
     {
         using S = typename R::scalar_type;
@@ -432,6 +433,10 @@ struct Kernel
         {
             return index == 0 ? n.left : n.right;
         };
+        
+#if MAXMODE
+        auto rootHr = intersect(ray, get_bounds(nodes[0]), inv_dir);
+#endif
 
 next:
         while (!st.empty())
@@ -496,8 +501,40 @@ next:
          		near = hr.tnear;
          		far = hr.tfar;
          	}
-         
-           
+#elif MAXMODE
+	   float dist = hr.tfar-hr.tnear;
+	   int id = ((blockIdx.x * blockDim.x) + threadIdx.x);
+	   int lane_id = id % warpSize;
+#pragma unroll
+ 	   for (int i = 1; i <= 32; i *= 2) {
+  		  unsigned int mask = 0xffffffff;
+   		  float n = __shfl_up_sync(mask, dist, i, 32);
+    		  if (lane_id >= i) far = max(dist,n);
+		}
+		
+		/*for (int offset = 0; offset< 32 && threadId<1024  ; offset++)
+		{
+			far = max(far,__shfl_up_sync(__activemask(),far,offset));
+			
+		}*/
+		/*for (int d=1; d<32; d<<=1) {
+			emp3 = __shfl_up_sync(-1, temp2,d);
+			if (tid%32 >= d) temp2 += temp3;
+		}
+		int x = threadIdx.x + blockIdx.x * blockDim.x;
+		int y = threadIdx.y + blockIdx.y * blockDim.y;
+		/*if(blockIdx.x == 64 && blockIdx.y == 64 && first) {		
+		    printf("%f %d %d\n", far, x, y);
+		    first = false;
+		}*/
+		
+	
+           integrate(ray, max(t,hr.tnear), min(hr.tnear+dist,rootHr.tfar), result.color, pixel);
+           //float dist = (far-far2)/1000.f;
+           if(!::isfinite(far)) 
+           result.color += C(1.f,0.f,0.f,1.f);
+           //integrate(ray, hr.tnear, min(far,rootHr.tfar), result.color, pixel);
+           t = min(hr.tnear+dist,rootHr.tfar);
             
 #else 
 	integrate(ray, hr.tnear, hr.tfar, result.color, pixel);
